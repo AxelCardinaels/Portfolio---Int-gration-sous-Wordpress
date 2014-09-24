@@ -1,0 +1,955 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"tabe",
+				"table-cell"
+			],
+			[
+				"backgrou",
+				"background-position"
+			],
+			[
+				"backgro",
+				"background-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"last",
+				"last-child"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"font-",
+				"font-style"
+			],
+			[
+				"padding",
+				"padding"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"del",
+				"delay"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"gale",
+				"galeriedroite"
+			],
+			[
+				"galerie",
+				"galeriegauche"
+			],
+			[
+				"gal",
+				"galeriegauche"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"coul",
+				"couleurdynamisation"
+			],
+			[
+				"couleur",
+				"couleurdetente"
+			],
+			[
+				"couleurd",
+				"couleurdynamisation"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"border-bo",
+				"border-bottom"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"de",
+				"detente"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"bak",
+				"background-size"
+			],
+			[
+				"fo",
+				"footer"
+			],
+			[
+				"col",
+				"couleurhome"
+			],
+			[
+				"tab",
+				"table-row"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"img",
+				"imgsecond"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border",
+				"border-bottom-right-radius"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"te",
+				"texteheader"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"le",
+				"leNouveauBouton"
+			],
+			[
+				"a",
+				"addEventListener"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"margo",
+				"margin-top"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"check",
+				"checkWin"
+			],
+			[
+				"can",
+				"cancelAnimationFrame"
+			],
+			[
+				"i",
+				"innerHTML"
+			],
+			[
+				"re",
+				"render"
+			],
+			[
+				"bi",
+				"bidon1"
+			],
+			[
+				"co",
+				"compteur"
+			],
+			[
+				"sou",
+				"sourceHeight"
+			],
+			[
+				"in",
+				"incrementation"
+			],
+			[
+				"cm",
+				"compteur"
+			],
+			[
+				"c",
+				"cancelAnimationFrame"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"sour",
+				"sourceHeight"
+			],
+			[
+				"s",
+				"sourceHeight"
+			],
+			[
+				"cn",
+				"canMove"
+			],
+			[
+				"l",
+				"limiteDroite"
+			],
+			[
+				"d",
+				"directiony"
+			],
+			[
+				"m",
+				"maVoiture"
+			],
+			[
+				"dir",
+				"directiony"
+			],
+			[
+				"souc",
+				"sourcey"
+			],
+			[
+				"emp",
+				"emplacementCanvasY"
+			],
+			[
+				"em",
+				"emplacementCanvasX"
+			],
+			[
+				"B",
+				"Balle"
+			],
+			[
+				"el",
+				"emplacementCanvasY"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"Ball",
+				"Balle"
+			],
+			[
+				"is",
+				"isTurningLeft"
+			],
+			[
+				"go",
+				"goGauche"
+			],
+			[
+				"u",
+				"updateLocation"
+			],
+			[
+				"Tu",
+				"tourneDroite"
+			],
+			[
+				"v",
+				"vitesse"
+			],
+			[
+				"g",
+				"goDroite"
+			],
+			[
+				"directi",
+				"directiony"
+			],
+			[
+				"source",
+				"sourceHeight"
+			],
+			[
+				"direc",
+				"directiony"
+			],
+			[
+				"sourc",
+				"sourcex"
+			],
+			[
+				"update",
+				"updateAngle"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"Mouse",
+				"mouseEvent"
+			],
+			[
+				"ran",
+				"randomCounts"
+			],
+			[
+				"im",
+				"imageUrl"
+			],
+			[
+				"cro",
+				"crossThickness"
+			],
+			[
+				"fl",
+				"flagHeight"
+			],
+			[
+				"book",
+				"book_id"
+			],
+			[
+				"vi",
+				"view"
+			],
+			[
+				"delete",
+				"delete"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"author",
+				"author_id"
+			],
+			[
+				"id",
+				"book_id"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"auth",
+				"author_id"
+			],
+			[
+				"autho",
+				"authors"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"spl",
+				"spl_autoload"
+			],
+			[
+				"boo",
+				"book_infos"
+			],
+			[
+				"books",
+				"books_editor"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"tableau",
+				"tableauMerged"
+			],
+			[
+				"is_in",
+				"is_int"
+			],
+			[
+				"nombre",
+				"nombreLettre2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Open-In-Firefox.sublime-build",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/html/blog.html",
+		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/html/about.html",
+		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/css/screen.css",
+		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/index.html",
+		"/Users/Axel/Desktop/Stuff/SASS/scss/_normalize.scss",
+		"/Users/Axel/Desktop/Stuff/SASS/index.html",
+		"/Users/Axel/Desktop/Stuff/SASS/scss/style.scss",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/references.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/privetous.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/privefemme.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/priveenfant.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/galerie.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/forme.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/formations.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/dynamisation.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/detente.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/agenda.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/profil.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/contact.php",
+		"/Applications/MAMP/htdocs/EnergyAndCool/index.html",
+		"/Applications/MAMP/htdocs/EnergyAndCool/html/stress.html",
+		"/Applications/MAMP/htdocs/coursVilain/Cours29janvier/biblio.sublime-project",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/contact.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/priveenfant.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/privefemme.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/privetous.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/index.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/detente.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/agenda.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/dynamisation.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/formations.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/forme.html",
+		"/Users/Axel/Desktop/Stuff/Sites/EnergyAndCool/html/stress.html",
+		"/Applications/MAMP/htdocs/coursVilain/Flappybird/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/2 Using Forces/js/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/3 - frictions/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/4-rotations/js/min/ex-ck.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/4-rotations/js/min/processing-ck.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/3 - frictions/js/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/3 - frictions/js/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/2 Using Forces/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/2 Using Forces/js/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/1 - addingforces/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/1 - addingforces/js/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 2 - forces/1 - addingforces/js/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapters 2 - Forces/ex1/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapters 2 - Forces/ex1/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapters 2 - Forces/ex1/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex6/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex6/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex6/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex5/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex5/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex4/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex4/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex3/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex3/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex3/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex2/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex2/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex2/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex1/processing.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/Chapitre 1 - Vecteurs/ex1/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/chapitre 0 - introduction/ex2/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/chapitre 0 - introduction/ex2/css/screen.css",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/chapitre 0 - introduction/ex2/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/chapitre 0 - introduction/ex1/ex.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/chapitre 0 - introduction/ex1/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/ex1/ex1.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas2/ex1/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex7/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex6/ex6.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex6/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex4/ex4.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex4/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex5/ex5.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex5/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex3/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex3/ex3.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex2/ex2.js",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex2/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex1/index.html",
+		"/Applications/MAMP/htdocs/coursVilain/canvas/ex1/ex1.js",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/bookshow.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/bookedit.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/bookcreate.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/config/routes.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genreindex.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/userlogin.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/model.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/genreController.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/genre.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/authorindex.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/css/screen.css",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/authorController.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/helpers/filesProcessor.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genreshow.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/helpers/filesProcressor.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/book.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/index.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/layout.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/userController.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/user.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/bookindex.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/config/config.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/bookController.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/editor.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/editorshow.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/authorshow.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/editorindex.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/editorController.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/author.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/editor_detail.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/sql.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/baseController.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/books_list.php",
+		"/Applications/MAMP/htdocs/coursVilain/testclasse/book.php",
+		"/Applications/MAMP/htdocs/coursVilain/testclasse/author.php",
+		"/Applications/MAMP/htdocs/coursVilain/testclasse/index.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/book_detail.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/author_detail.php",
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genre_detail.php",
+		"/Applications/MAMP/bin/php/php5.5.3/conf/php.ini",
+		"/Applications/MAMP/conf/php5.5.3/php.ini",
+		"/Applications/MAMP/htdocs/coursVilain/exerciceSemaine1/index.php",
+		"/Applications/MAMP/htdocs/coursVilain/exerciceSemaine1/model.php",
+		"/Applications/MAMP/htdocs/coursVilain/exerciceSemaine1/view.php",
+		"/Users/Axel/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sans",
+			"nom",
+			"road",
+			"nav",
+			"span",
+			"img",
+			"H3",
+			"clear",
+			"img",
+			"nav",
+			"animation",
+			"dribble",
+			"border",
+			"1200",
+			"1200px",
+			"header",
+			"pluie",
+			"projet",
+			"700",
+			"center",
+			"span",
+			"px",
+			"bold",
+			"animation",
+			"CbSeraing",
+			"cbseraing",
+			"energyandcool",
+			"ease-in-out",
+			"header",
+			"height",
+			"header",
+			"ul",
+			"test",
+			"$property",
+			"play-state",
+			"direction",
+			"iteration",
+			"delay",
+			"timing-function",
+			"name",
+			"yellow",
+			"red",
+			"background",
+			"myfirst",
+			"yellow",
+			"red",
+			"background",
+			"delai",
+			"type",
+			"$duree",
+			"propriete",
+			"mp4",
+			"border-radius",
+			"red",
+			"stress",
+			"deroul",
+			"hover",
+			"\"museo-sans\",sans-serif;",
+			"museo-sans",
+			"article",
+			"footer",
+			".remonte",
+			"footer",
+			".last",
+			"remonte",
+			"ooter",
+			"vignetteforme",
+			".remonte",
+			".img",
+			"refe",
+			"js",
+			"#content",
+			"4",
+			"3",
+			"2",
+			"1",
+			"nowidth",
+			"8",
+			"Gym et formation",
+			"png",
+			"gymformation",
+			"1200",
+			"1",
+			"3",
+			"1",
+			"#conten",
+			"2",
+			"contact",
+			"#content",
+			"#deroul",
+			"absolut",
+			"menu",
+			"#items",
+			"nav",
+			"#nav",
+			"header",
+			"article",
+			"couleurdetente",
+			"body",
+			"article",
+			"dynamisation",
+			"contact",
+			"contact.html",
+			"contact.php",
+			"contact.html",
+			"contact.htm",
+			"contact.html",
+			"mailto",
+			"contact",
+			"siteweb",
+			"email",
+			"nom",
+			"couleurconta",
+			"agenda",
+			"H3",
+			"h4",
+			"couleur",
+			"html/",
+			"em",
+			"hoverprivefemme",
+			"html/",
+			"#DEROUL",
+			"couleurformations",
+			"couleurform",
+			"formations",
+			"couleur",
+			"header",
+			"textes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"genre",
+				"models/genre.php"
+			],
+			[
+				"model",
+				"models/model.php"
+			],
+			[
+				"book.php",
+				"models/book.php"
+			],
+			[
+				"index",
+				"index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
