@@ -1,10 +1,625 @@
-body{
-	color:black;
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-}
+@import "compass/reset";
+@import "susy";
+@import "scumizer";
 
 /*
 Theme Name: Portfolio
 Author Name: Axel Cardinaels
 
 */
+
+$susy: (
+
+	column : 12,
+
+  global-box-sizing: border-box 
+ );
+
+
+
+
+@include border-box-sizing;
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+body,html{
+	height: 100%;
+	font-family:"source sans pro";
+}
+
+#container{
+
+
+width:100%;
+
+}
+
+	.home{
+
+	
+	animation:header 1.5s ease-in-out;
+	animation-fill-mode:forwards;
+	-webkit-animation:header 1.5s ease-in-out;
+	-webkit-animation-fill-mode:forwards;
+	height:100%;
+
+	.textheader{
+		top:45%;
+
+	}
+
+	nav{
+			
+			animation:nav 2s ease-in-out 3s;
+			animation-fill-mode:forwards;
+			-webkit-animation:nav 2s ease-in-out 3s;
+			-webkit-animation-fill-mode:forwards;
+	}
+}
+
+
+
+	.location{
+		width:30px;
+		height: 30px;
+		position:absolute;
+		left:49%;
+		top:43%;
+		border-radius: 100%;
+		border:2px solid white;
+	}
+	
+	#map-canvas{
+		@include span(7 of 15);
+		height:500px;
+	}
+
+header{
+	background:black;
+	width:100%;
+	color:white;
+	
+	height: 40%;
+	position: relative;
+	overflow: hidden;
+	
+
+	
+
+	#map-canvas{
+		@include span(7 of 15);
+		height:500px;
+		position: absolute;
+		z-index:1;
+	}
+
+	
+	
+	video{
+		position: absolute;
+		z-index: 0;
+		
+	}
+		h1{
+			text-transform:uppercase;
+			font-size: 50px;
+		}
+
+		h2{
+			font-size:40px;
+			font-style: italic;
+		}
+
+		.textheader{
+			position: relative;
+			width:900px; //900px
+			margin:0px auto;
+			font-weight: bold;
+			z-index:2;
+			top:30%;
+
+
+		}
+
+		nav{
+			width:100%;
+			font-weight:lighter;
+			font-size: 18px;
+			position:absolute;
+			bottom:2em;
+			text-align: center;
+			opacity: 0;
+			z-index:3;
+
+			animation:nav 1s ease-in-out 0s;
+			animation-fill-mode:forwards;
+			-webkit-animation:nav 1s ease-in-out 0s;
+			-webkit-animation-fill-mode:forwards;
+
+
+
+
+			
+			.items{
+				margin:0 auto;
+				
+
+			
+				
+			
+			}
+
+
+			li{
+				display: inline-block;
+				margin-right:5.952380952381%; /*100/1680*/
+			&:last-child{
+				margin:0px;
+			}
+
+				
+			}
+
+
+
+			a{
+				color:white;
+				text-decoration: none;
+				width:100%;
+				@include transition_css(all,0.5s,ease-in-out,0);
+				border-bottom: 2px solid rgba(255,255,255,0);
+			
+				&:hover{
+					border-bottom:2px solid white;
+				}
+			}
+
+			h3{
+				position: absolute;
+				text-indent: -9999px;
+				visibility: hidden;
+			}
+
+
+			
+		}
+
+		.selected{
+			border-bottom:2px solid white;
+		}
+
+
+}
+
+.container{
+	width:71.428571428571%;
+	margin:0px auto;
+
+	.intro{
+		font-size: 26px;
+		font-style: italic;
+		font-weight: lighter;
+		text-align: center;
+		padding: 90px 0px;
+		color:#676767;
+		width:83.333333333333%; //1000px
+
+
+		margin: 0px auto;
+
+		h3{
+			position: absolute;
+			text-indent: -9999px;
+			visibility: hidden;
+		}
+		
+	}
+	
+	.articleslist, .titresans{
+		margin:90px 0px;
+		border:none;
+
+		h3{
+				display:block;
+		}
+
+		.messageform{
+		@include span(7 of 15);
+		@include last;
+		text-align: left;
+
+			input,textarea{
+				width:100%;
+				border:none;
+				text-decoration:underline;
+				text-decoration-style:doted;
+				color:black;
+			}
+
+	
+		}
+
+		.tri{
+			text-align: left;
+			border-top:1px solid #C8C8C8;
+			padding-top:10px;
+			
+
+
+			a{
+				text-decoration: none;
+				margin-right:20px;
+				padding-top:7px;
+				@include transition_css(all,0.5s,ease,0);
+				border-top:2px solid rgba(1,1,1,0);
+
+
+				&:last-child{
+					margin:0px;
+				}
+
+				&:hover{
+					border-top:2px solid black;
+				}
+
+			}
+			.triselect{
+				border-top:2px solid black;
+				
+				}
+		}
+
+		.portrait{
+			@include span(7 of 15);
+			@include first;
+			overflow: hidden;
+			height: 500px;
+
+			img{
+				
+				width: 100%;
+			}
+		}
+
+		.bio{
+			@include span(7 of 15);
+			@include last;
+			text-align: left;
+		}
+
+
+		.allarticles{
+			text-align: left;
+			margin-top: 80px;
+
+			.singlearticle{
+				padding-bottom: 20px;
+				margin-bottom: 20px;
+				border-bottom:1px solid #C8C8C8;
+
+				&:last-child{
+					border-bottom:none;
+					margin-bottom: 0px;
+				}
+			}
+
+			h4{
+				font-weight: 600;
+				margin-bottom:5px;
+			}
+
+			.infosarticle{
+				
+				margin-top:15px;
+
+				p{
+					display: inline;
+
+					&:after{
+						content:"|";
+						margin:0px 10px;
+					}
+				}
+
+			}
+		}
+	}
+
+	section{
+		border-top: 2px solid #DDDDDD;
+		clear: both;
+		position:relative;
+		text-align: center;
+	
+
+	h3{
+
+		font-size: 22px;
+		font-weight: semibold;
+		font-style: italic;
+		
+		margin-bottom: 100px;
+		color:#676767;
+		position: relative;
+		background: white;
+		padding:0px 35px;
+		top:-14px;
+		text-align: center;
+		margin: 0px auto;
+		display:inline-block;
+		margin-bottom:70px
+
+		
+	}
+	}
+
+
+
+		.lasttravaux{
+			
+			.allproject{
+				clear:both;
+				width:20%;
+				color:#C8C8C8;
+				border:1.5px #C8C8C8 solid;
+
+				@include last;
+				text-decoration: none;
+				padding:5px;
+
+				@include transition_css(all,0.5s,ease-in-out,0);
+
+				&:hover{
+					border:1.5px black solid;
+					color:black;
+
+				
+
+				}
+			}
+
+			.projets{
+				box-shadow: 0px 0px 9px rgba(1,1,1,0.3);
+
+			}
+			&>a{
+				@include span(7 of 15);
+				
+				margin-bottom:90px;
+				position: relative;
+				overflow: hidden;
+				
+				&:nth-child(even){
+					@include last;
+				}
+
+				&>figure>img{
+					width: 100%;
+
+
+
+				}
+
+				div{
+					visibility: hidden;
+					position: absolute;
+					height:405px;
+					bottom:405px;
+					transition:all 0.3s ease-in-out;
+					background: rgba(1,1,1,0.6);
+					opacity: 0;
+					z-index: 2;
+					color:white;
+					width: 555px;
+					text-align: left;
+					padding:30px;
+					font-size: 0.95em;
+
+
+
+					h4{
+						font-size: 1.2em;
+						margin-bottom:10px;
+
+					}
+
+
+				}
+
+				&:hover div{
+					visibility: visible;
+					opacity: 1;
+				
+					
+				
+					bottom:0px;
+				}
+
+		}
+
+			
+	}
+
+
+	.postsblog{
+
+		@include container(100%);
+		position: relative;
+		
+		span{
+					width:35px;
+					height:35px;
+					text-indent: -9999px;
+					background: black;
+					display:inline-block;
+					border-radius: 100%;
+					position:absolute;
+					left:0px;
+					
+				
+				
+				
+				}
+
+		.tagblog{
+					background:url("../img/blog.png") no-repeat center;
+					background-size: 100%;
+					
+				}
+
+		.tagprojet{
+					background:url("../img/projet.png") no-repeat center;
+					background-size: 100%;
+					
+				}
+		
+		.posts{
+			@include span(7 of 12);
+			margin-bottom:20px;
+			text-align: justify;
+			padding-left: 65px;
+			
+
+			h4{
+				margin-bottom:5px;
+				font-weight:500;
+
+			}
+			p{
+				font-size:0.9em;
+
+				
+			}
+
+
+		
+		}
+
+		.twitter{
+			border:1px solid black;
+			@include span(5 of 12);
+			@include last;
+			position:absolute;
+			top:0px;
+			right: 0px;
+		}
+
+
+		
+	}
+	
+	
+
+}
+
+footer{
+	width:100%;
+	margin:100px auto 0px auto;
+	border-top: 1.5px solid #DDDDDD;
+	clear:both;
+	
+
+	.logosfooter{
+		text-align: center;
+		margin:80px auto;
+	
+	
+	a{
+		
+		height:40px;
+		display: inline-block;
+		overflow: hidden;
+		background-image: url('../img/socialsprite.png');
+		@include transition_css(all,0.15s,ease-in-out,0);
+		display: inline-block;
+		margin-right:10%; 
+			&:last-child{
+				margin:0px;
+			}
+
+
+
+	}
+}
+	.dribbble{
+		
+		width:40px;
+		background-position:-81px 0px;
+
+		&:hover{
+			background-position: -81px -78px;
+		}
+	}
+
+	.behance{
+		width:62px;
+		background-position:0 0px;
+
+		&:hover{
+			background-position: 0px -78px;
+		}
+
+	}
+
+	.twitter{
+		width:47px;
+		background-position:-304px -1px;
+
+		&:hover{
+			background-position: -304px -78px;
+		}
+	}
+
+	.linkedin{
+		width:145px;
+		background-position:-139px -1px;
+
+		&:hover{
+			background-position: -139px -78px;
+
+		}
+	}
+}
+
+
+
+
+@-webkit-keyframes header {
+	    from {height: 0%}
+	    to {height: 100%}
+	}
+
+	@keyframes header {
+	    from {height: 0%}
+	    to {height: 100%}
+	}
+
+
+@-webkit-keyframes nav {
+	    from {opacity: 0}
+	    to {opacity: 1}
+	}
+
+	@keyframes nav {
+	    from {opacity: 0}
+	    to {opacity: 1}
+	}
+
+
+
+
+

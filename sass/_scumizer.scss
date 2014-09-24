@@ -1,0 +1,30 @@
+@mixin transition_css($property,$duration,$timing-function,$delay){
+    
+
+    -moz-transition:$property $duration $timing-function $delay;
+    -ms-transition:$property $duration $timing-function $delay;
+    -webkit-transition:$property $duration $timing-function $delay;
+    transition: $property $duration $timing-function $delay;
+}
+
+@mixin animation_css($name,$duration,$timing-function,$delay,$iteration,$direction,$play-state){
+	-webkit-animation: $name $duration $timing-function $delay $iteration $direction $play-state;
+	-moz-animation: $name $duration $timing-function $delay $iteration $direction $play-state;
+	animation: $name $duration $timing-function $delay $iteration $direction $play-state;
+}
+
+@mixin simple_animation($name,$property,$from,$to){
+	/* Chrome, Safari, Opera */
+	@-webkit-keyframes $name {
+	    from {$property: $from;}
+	    to {$property: $to;}
+	}
+
+
+	@keyframes $name {
+	    from {$property: $from;}
+	    to {$property: $to;}
+	}
+}
+
+
