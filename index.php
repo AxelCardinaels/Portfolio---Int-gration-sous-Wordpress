@@ -13,6 +13,7 @@
       </div>
       <nav>
           <h3>Menu</h3>
+          
           <ul class="items">
             <li>
               <a href="#" title="Vers la page d'acceuil" class="selected">Home</a>
@@ -52,7 +53,11 @@
                  </figure>
 
                   <div>
-                    <h4>EnergyAndCool.be</h4>
+                    <h4><?php while(have_posts()): the_post(); ?>
+
+                    <?php echo the_field('nom_du_projet') ?>
+
+                    <?php endwhile ?></h4>
                     <p> Site réalisé pour la société Energy And Cool, une société visant à aider à la gestion du stress en entreprise</p>
 
                   </div>

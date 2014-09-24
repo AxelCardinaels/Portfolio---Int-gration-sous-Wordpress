@@ -543,7 +543,7 @@ footer{
 		height:40px;
 		display: inline-block;
 		overflow: hidden;
-		background-image: url('../img/socialsprite.png');
+		background-image: url('img/socialsprite.png');
 		@include transition_css(all,0.15s,ease-in-out,0);
 		display: inline-block;
 		margin-right:10%; 

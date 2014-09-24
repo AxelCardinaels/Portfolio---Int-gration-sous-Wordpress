@@ -469,7 +469,7 @@ footer {
       height: 40px;
       display: inline-block;
       overflow: hidden;
-      background-image: url("../img/socialsprite.png");
+      background-image: url("img/socialsprite.png");
       -moz-transition: all 0.15s ease-in-out 0;
       -ms-transition: all 0.15s ease-in-out 0;
       -webkit-transition: all 0.15s ease-in-out 0;

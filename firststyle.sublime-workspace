@@ -496,10 +496,66 @@
 	"buffers":
 	[
 		{
-			"contents": "",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 5698,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 296,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/style.scss",
+			"settings":
+			{
+				"buffer_size": 8046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "blog.php",
+			"settings":
+			{
+				"buffer_size": 4385,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contact.php",
+			"settings":
+			{
+				"buffer_size": 2116,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 1601,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 3789,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-informations.php",
+			"settings":
+			{
+				"buffer_size": 1497,
 				"line_ending": "Unix"
 			}
 		}
@@ -552,6 +608,12 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/informations.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/about.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/header.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/screen.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/config.rb",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/style.css",
 		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/html/blog.html",
 		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/html/about.html",
 		"/Users/Axel/Desktop/Stuff/Sites/Portfolio/css/screen.css",
@@ -673,13 +735,7 @@
 		"/Applications/MAMP/htdocs/coursVilain/testclasse/index.php",
 		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/book_detail.php",
 		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/author_detail.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genre_detail.php",
-		"/Applications/MAMP/bin/php/php5.5.3/conf/php.ini",
-		"/Applications/MAMP/conf/php5.5.3/php.ini",
-		"/Applications/MAMP/htdocs/coursVilain/exerciceSemaine1/index.php",
-		"/Applications/MAMP/htdocs/coursVilain/exerciceSemaine1/model.php",
-		"/Applications/MAMP/htdocs/coursVilain/exerciceSemaine1/view.php",
-		"/Users/Axel/Library/Application Support/Sublime Text 2/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu"
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genre_detail.php"
 	],
 	"find":
 	{
@@ -847,26 +903,221 @@
 			[
 				{
 					"buffer": 0,
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5698,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2382,
+								2382
 							]
 						],
 						"settings":
 						{
-							"auto_name": "",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 628.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 296,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								296,
+								296
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/style.scss",
+					"settings":
+					{
+						"buffer_size": 8046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7112,
+								7112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 9403.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "blog.php",
+					"settings":
+					{
+						"buffer_size": 4385,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4385,
+								4385
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1156.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "contact.php",
+					"settings":
+					{
+						"buffer_size": 2116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2108,
+								2108
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "footer.php",
+					"settings":
+					{
+						"buffer_size": 1601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1601,
+								1601
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 3789,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								534,
+								534
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 129.0,
+						"translation.y": 237.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "page-informations.php",
+					"settings":
+					{
+						"buffer_size": 1497,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1198,
+								1251
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 255.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -919,6 +1170,14 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"pag",
+				"page-informations.php"
+			],
+			[
+				"funct",
+				"functions.php"
+			],
 			[
 				"genre",
 				"models/genre.php"
