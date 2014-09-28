@@ -198,16 +198,24 @@ header{
 			
 		}
 
-		.selected{
+		.current-menu-item{
 			border-bottom:2px solid white;
 		}
 
 
 }
 
+div.container div.introabout{
+
+		padding-bottom:0px;
+
+	}
+
 .container{
 	width:71.428571428571%;
 	margin:0px auto;
+
+	
 
 	.intro{
 		font-size: 26px;
@@ -284,10 +292,11 @@ header{
 		}
 
 		.portrait{
-			@include span(7 of 15);
+			@include span(5 of 15);
 			@include first;
 			overflow: hidden;
 			height: 500px;
+			margin-bottom:125px;
 
 			img{
 				
@@ -296,9 +305,28 @@ header{
 		}
 
 		.bio{
-			@include span(7 of 15);
-			@include last;
+			@include span(15 of 15);
 			text-align: left;
+		}
+
+		.bio p, .bio ul{
+			margin-bottom:15px;
+			@include span(9 of 15);
+			@include last;
+			font-weight: 300;
+		}
+
+		.bio li{
+			margin-bottom:10px;
+		}
+
+		.bio h4{
+
+			@include span(9 of 15);
+			@include last;
+			font-weight: 500;
+			font-size: 1.2em;
+			margin:20px auto;
 		}
 
 
@@ -371,7 +399,7 @@ header{
 
 		.lasttravaux{
 			
-			.allproject{
+				.allproject{
 				clear:both;
 				width:20%;
 				color:#C8C8C8;
@@ -396,16 +424,33 @@ header{
 				box-shadow: 0px 0px 9px rgba(1,1,1,0.3);
 
 			}
-			&>a{
+
+			.featured{
 				@include span(7 of 15);
-				
 				margin-bottom:90px;
-				position: relative;
-				overflow: hidden;
 				
 				&:nth-child(even){
 					@include last;
 				}
+			}
+
+			.listed{
+				@include span(5 of 16);
+				margin-bottom:50px;
+				margin-right:50px;
+
+				&:nth-child(3n+3){
+					margin-right:0px;
+				}
+			}
+			&>a{
+				
+				
+				
+				position: relative;
+				overflow: hidden;
+				
+				
 
 				&>figure>img{
 					width: 100%;
@@ -414,17 +459,19 @@ header{
 
 				}
 
+
+
 				div{
 					visibility: hidden;
 					position: absolute;
-					height:405px;
-					bottom:405px;
+					height:100%;
+					bottom:100%;
 					transition:all 0.3s ease-in-out;
 					background: rgba(1,1,1,0.6);
 					opacity: 0;
 					z-index: 2;
 					color:white;
-					width: 555px;
+					width: 100%;
 					text-align: left;
 					padding:30px;
 					font-size: 0.95em;

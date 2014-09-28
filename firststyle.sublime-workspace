@@ -499,7 +499,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 4532,
+				"buffer_size": 4541,
 				"line_ending": "Unix"
 			}
 		},
@@ -515,7 +515,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 8046,
+				"buffer_size": 8232,
 				"line_ending": "Unix"
 			}
 		},
@@ -556,6 +556,14 @@
 			"settings":
 			{
 				"buffer_size": 1497,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "page-realisations.php",
+			"settings":
+			{
+				"buffer_size": 2495,
 				"line_ending": "Unix"
 			}
 		}
@@ -608,6 +616,8 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-projets.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/projets.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/informations.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/about.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/header.php",
@@ -733,9 +743,7 @@
 		"/Applications/MAMP/htdocs/coursVilain/testclasse/book.php",
 		"/Applications/MAMP/htdocs/coursVilain/testclasse/author.php",
 		"/Applications/MAMP/htdocs/coursVilain/testclasse/index.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/book_detail.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/author_detail.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genre_detail.php"
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/book_detail.php"
 	],
 	"find":
 	{
@@ -898,7 +906,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 8,
 			"sheets":
 			[
 				{
@@ -906,15 +914,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 4532,
+						"buffer_size": 4541,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1911,
-								1911
+								1776,
+								2898
 							]
 						],
 						"settings":
@@ -924,7 +932,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 761.0,
+						"translation.y": 805.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -960,15 +968,15 @@
 					"file": "sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 8046,
+						"buffer_size": 8232,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7112,
-								7112
+								5062,
+								5062
 							]
 						],
 						"settings":
@@ -977,7 +985,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 9403.0,
+						"translation.y": 6490.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1106,8 +1114,8 @@
 						"selection":
 						[
 							[
-								1198,
-								1251
+								1179,
+								1179
 							]
 						],
 						"settings":
@@ -1117,7 +1125,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 255.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "page-realisations.php",
+					"settings":
+					{
+						"buffer_size": 2495,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1753,
+								1753
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 741.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

@@ -1,4 +1,5 @@
- <?php get_header(); ?>
+  <?php get_header(); ?>
+
     
     <header>
        <video autoplay loop>
@@ -36,55 +37,51 @@
           
           </nav>
         </header>
-        
         <div class="container">
 
-          <?php $projets = new WP_Query(array(
-                        'pagename' => 'informations',
+          <section>
+
+            <h3 class="titresans" > Tous les projets </h3>
+            <div class="lasttravaux">
+                <?php $projets = new WP_Query(array(
+                        'post_type' => 'creations',
                         'orderby' => 'date',
                         'order' => 'DESC',
 
                         )); ?>
                       
                       <?php while($projets->have_posts()): $projets->the_post()?>
-                      <?php $image = get_field('photo'); ?>
-        <section>
-          <div class="intro introabout">
-            <h3> Introduction </h3>
-            <blockquote>« <?php the_field('intro') ?> »</blockquote>
-          </div>
-        </section>
-        <section class="titresans">
+                      <?php $image = get_field('vignette_du_projet'); ?>
 
-          <h3> Soyons bref : </h4>
-          
-          <div class="bio">
-            <span class="portrait">
-              <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
-            </span>
-            <p> <?php the_field('para1') ?> </p>
-            <p> <?php the_field('para2') ?> </p>
-            <p> <?php the_field('para3') ?> </p>
-            <h4> Rapide historique </H4>
-            <ul>
-              <li><?php the_field('item1') ?></li>
-              <li><?php the_field('item2') ?></li>
-              <li><?php the_field('item3') ?></Li>
-              <li><?php the_field('item4') ?></li>
-              <li><?php the_field('item5') ?></li>
-              <li><?php the_field('item6') ?></li>
-            </ul>
-          </div>
-            
-            
-         
-          
-        </section>
-        
-        
-       <?php endwhile; ?>
-        <?php wp_reset_query(); ?>
-  </div>
+
+               <a class="projets listed" href="html/energyandcool.html" title="Vers le projet <?php the_field('nom_du_projet') ?>">
+                  <figure>
+                    <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
+                 </figure>
+
+                  <div>
+                    <h4>
+                     
+
+                    <?php the_field('nom_du_projet') ?>
+
+                    </h4>
+                    <p>
+
+                    <?php the_field('description_courte_du_projet') ?>
+
+                  </p>
+
+                  </div>
+               </a>
+
+                 <?php endwhile; ?>
+                 <?php wp_reset_query(); ?>
+            </div>
+
+
+          </section>
+
+        </div>
        
-
-        <?php get_footer(); ?>
+         <?php get_footer(); ?>
