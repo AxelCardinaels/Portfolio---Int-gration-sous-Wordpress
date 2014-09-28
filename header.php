@@ -16,19 +16,24 @@
     <script>
 
         var map;
-        var chicago = new google.maps.LatLng(50.6246401,5.5990901);
+        
 
         function initialize() {
 
             var roadAtlasStyles = [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#000000"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#000000"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#000000"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#000000"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#000000"},{"lightness":17},{"weight":1.2}]},{"featureType":"road","elementType":"labels","stylers":[{"color":"#888888"},{"weight":"0.5"}]}]
 
             var mapOptions = {
-                zoom: 12,
-                center: new google.maps.LatLng(50.6246401,5.5990901),
+                zoom: 13,
+                center: new google.maps.LatLng(50.71727,5.6423299),
                 mapTypeControlOptions: {
-                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas']
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'usroadatlas'],
                 },
-                 disableDefaultUI: true
+                 disableDefaultUI: true,
+                 scrollwheel: false,
+                  navigationControl: false,
+                  mapTypeControl: false,
+                  scaleControl: false,
+                  draggable: false
             };
 
             var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';

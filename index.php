@@ -15,24 +15,27 @@
       </div>
       <nav>
           <h3>Menu</h3>
-          
-          <ul class="items">
-            <li>
-              <a href="#" title="Vers la page d'acceuil" class="selected">Home</a>
-            </li>
-            <li>
-              <a href="#" title="Vers la page regroupant mes travaux">Réalisations</a>
-            </li>
-            <li>
-              <a href="html/blog.html" title="Vers le blog d'Axel Cardinaels">Blog</a>
-            </li>
-            <li>
-              <a href="html/about.html" title="Vers la page d'informations sur Axel Cardinaels">Informations</a>
-            </li>
-            <li>
-              <a href="html/contact.html" title="Vers la page de contact">Contact</a>
-            </li>
-          </ul>
+          <?php         
+          $args = array(
+            'theme_location'  => 'top',
+            'menu'            => '',
+            'container'       => 'ul',
+            'container_class' => '',
+            'container_id'    => '',
+            'menu_class'      => 'items',
+            'menu_id'         => '',
+            'echo'            => true,
+            'fallback_cb'     => 'wp_page_menu',
+            'before'          => '',
+            'after'           => '',
+            'link_before'     => '',
+            'link_after'      => '',
+            'depth'           => 0,
+            'walker'          => '');
+
+          wp_nav_menu($args);
+
+        ?>
           </nav>
         </header>
         <div class="container">
@@ -86,9 +89,12 @@
                  <?php wp_reset_query(); ?>
    
 
-               <a class="allproject" href="html/projets.html" title="Voir tous les projets">Voir les autres projets...</a>
+               <a class="allproject push" href="http://localhost/wordpress/realisations/" title="Voir tous les projets">Voir les autres projets...</a>
+          
+
             </div>
 
+         
 
           </section>
 
