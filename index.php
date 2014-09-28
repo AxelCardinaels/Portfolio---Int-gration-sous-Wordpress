@@ -2,6 +2,8 @@
 
     <?php get_header(); ?>
 
+
+
     <header class="home">
        <video autoplay loop>
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
@@ -47,56 +49,42 @@
 
             <h3> Derniers projets publiés </h3>
             <div class="lasttravaux">
-               <a class="projets" href="html/energyandcool.html" title="Vers le projet energy and cool.be">
+                <?php $projets = new WP_Query(array(
+                        'post_type' => 'creations',
+                        'posts_per_page' => 4,
+                        'orderby' => 'date',
+                        'order' => 'DESC',
+
+                        )); ?>
+                      
+                      <?php while($projets->have_posts()): $projets->the_post()?>
+                      <?php $image = get_field('vignette_du_projet'); ?>
+
+
+               <a class="projets" href="html/energyandcool.html" title="Vers le projet <?php the_field('nom_du_projet') ?>">
                   <figure>
-                    <img src="<?php echo get_template_directory_uri()?>/img/energyandcool.png" alt="Projet Energy and cool"/>
+                    <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
                  </figure>
 
                   <div>
-                    <h4><?php while(have_posts()): the_post(); ?>
+                    <h4>
+                     
 
-                    <?php echo the_field('nom_du_projet') ?>
+                    <?php the_field('nom_du_projet') ?>
 
-                    <?php endwhile ?></h4>
-                    <p> Site réalisé pour la société Energy And Cool, une société visant à aider à la gestion du stress en entreprise</p>
+                    </h4>
+                    <p>
+
+                    <?php the_field('description_courte_du_projet') ?>
+
+                  </p>
 
                   </div>
                </a>
-               <a class="projets" href="html/cbseraing.html" title="Vers le projet CbSeraing.be">
-                  <figure>
-                    <img src="<?php echo get_template_directory_uri()?>/img/cbseraing.png" alt="Projet CbSeraing.be"/>
-                  </figure>
 
-
-                   <div>
-                    <h4>CbSeraing.be</h4>
-                    <p> Site réalisé pour le comité de Baptème de Seraing, un comité de guindaille estudiantin.</p>
-            
-                  </div>
-              </a>
-
-               <a class="projets" href="html/irc.html" title="Vers le projet Concept d'un chat irc">
-                  <figure>
-                    <img src="<?php echo get_template_directory_uri()?>/img/irc.png" alt="Projet Concept d'un chat irc"/>
-                  </figure>
-
-                  <div>
-                    <h4>Concept de chat IRC</h4>
-                    <p>Etant un utilisateur régulier d'un chat IRC, je me suis pris à imaginer le miens..</p>
-            
-                  </div>
-               </a>
-               <a  class="projets" href="html/macintosh.html" title="Vers le projet illustration d'un Macintosh en flat Design">
-                  <figure>
-                    <img src="<?php echo get_template_directory_uri()?>/img/macintosh.png" alt="Projet illustration d'un Macintosh en Flat Design"/>
-                  </figure>
-
-                   <div>
-                    <h4>Illustration d'un Macintosh en Flat Design</h4>
-                    <p>Pour les 25 ans du mac, j'ai donc décidé de réaliser cette petite illustration...</p>
-            
-                  </div>
-              </a>
+                 <?php endwhile; ?>
+                 <?php wp_reset_query(); ?>
+   
 
                <a class="allproject" href="html/projets.html" title="Voir tous les projets">Voir les autres projets...</a>
             </div>

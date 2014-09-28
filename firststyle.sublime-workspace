@@ -499,7 +499,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 5698,
+				"buffer_size": 4532,
 				"line_ending": "Unix"
 			}
 		},
@@ -906,15 +906,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 5698,
+						"buffer_size": 4532,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2382,
-								2382
+								1911,
+								1911
 							]
 						],
 						"settings":
@@ -924,7 +924,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 628.0,
+						"translation.y": 761.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1089,7 +1089,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 129.0,
-						"translation.y": 237.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
