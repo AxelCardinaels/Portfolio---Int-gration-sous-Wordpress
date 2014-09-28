@@ -40,15 +40,24 @@
           <section class="titresans">
 
             <h3>Me dire bonjour !</h3>
+
+             <?php $projets = new WP_Query(array(
+                        'pagename' => 'contact',
+                       
+
+                        )); ?>
+                      
+                      <?php while($projets->have_posts()): $projets->the_post()?>
+                      
             
             <div class="map">
               <div id="map-canvas"></div>
-               <div class="oupeye"><p> Je proviens d'Oupeye, près du centre ville de Liège !</p></div>
+               <div class="oupeye"><p> Je proviens d'<?php the_field('ville') ?>, près du centre ville de <?php the_field('region') ?> !</p></div>
            </div>
 
             <div class="messageform">
               <div class="intro">
-                <blockquote>Des questions, une folle envie de me contacter ? Rien de plus simple en remplissant le petit formulaire si dessous !</blockquote>
+                <blockquote>« <?php the_field('intro') ?> »</blockquote>
             </div>
               <form method="post">
                 <label class="visuallyhidden" for="nom">Votre nom</label>
@@ -63,13 +72,16 @@
                 <input type="submit" value="Envoyer le message" class="allproject"/>
               </form>
             </div>
+            
 
+
+         <?php endwhile; ?>
+        <?php wp_reset_query(); ?>
             
           </section>
 
 
           
-
 
 
           

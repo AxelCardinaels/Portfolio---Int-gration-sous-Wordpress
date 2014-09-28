@@ -102,34 +102,32 @@
 
             <h3>Derniers articles du blogs et tweets</h3>
             <div class="postsblog">
-               
+             <?php $projets = new WP_Query(array(
+                        'post_type' => 'post',
+                        'orderby' => 'date',
+                        'order' => 'DESC',
+
+                        )); ?>
+                      
+                      <?php while($projets->have_posts()): $projets->the_post()?>
+                     
+
+          
+
     
              
               <div class="posts">
-                  <span class="tagprojet">Nouveau projet</span> 
+                  <span class="tag<?php the_field('type')?>">Post du blog : <?php the_field('titre') ?></span> 
                   <div>
-                <h4>Titre d'un post du blog</h4>
+                <h4><?php the_field('titre') ?></h4>
                 
-                <p>Description rapide du contenu que le visiteur retrouvera dans l'article</p>
+                <p><?php the_field('description') ?></p>
               </div>
               </div>
             
-               <div class="posts">
-                  <span class="tagblog">Nouveau post sur le blog</span> 
-                <div>
-                <h4>Titre d'un post du blog</h4>
-                <p>Description rapide du contenu que le visiteur retrouvera dans l'article</p>
-                </div>
-              </div>
-           
-               <div class="posts">
-                     <span class="tagblog">Nouveau post sur le blog</span> 
-                     <div>
-                <h4>Titre d'un post du blog</h4>
-                <p>Description rapide du contenu que le visiteur retrouvera dans l'article</p>
-              </div>
-              </div>
                 
+           <?php endwhile; ?>
+          <?php wp_reset_query(); ?>   
               <div class="twitter">
                 <h4> Mes derniers tweets </h4>
 
