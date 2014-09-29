@@ -38,6 +38,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/aftereffect.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6835,
+		"inputAbbreviatedPath": "\/img\/aftereffect.png",
+		"outputAbbreviatedPath": "\/img\/aftereffect.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/blog.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -56,6 +67,17 @@
 		"initialSize": 93922,
 		"inputAbbreviatedPath": "\/img\/cbseraing.png",
 		"outputAbbreviatedPath": "\/img\/cbseraing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/css3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3368,
+		"inputAbbreviatedPath": "\/img\/css3.png",
+		"outputAbbreviatedPath": "\/img\/css3.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -89,6 +111,50 @@
 		"initialSize": 106035,
 		"inputAbbreviatedPath": "\/img\/headerbg.jpg",
 		"outputAbbreviatedPath": "\/img\/headerbg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/headerMac.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15817,
+		"inputAbbreviatedPath": "\/img\/headerMac.png",
+		"outputAbbreviatedPath": "\/img\/headerMac.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/html5.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1731,
+		"inputAbbreviatedPath": "\/img\/html5.png",
+		"outputAbbreviatedPath": "\/img\/html5.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/illustrator.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6452,
+		"inputAbbreviatedPath": "\/img\/illustrator.png",
+		"outputAbbreviatedPath": "\/img\/illustrator.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/indesign.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6268,
+		"inputAbbreviatedPath": "\/img\/indesign.png",
+		"outputAbbreviatedPath": "\/img\/indesign.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -148,6 +214,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/photoshop.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5830,
+		"inputAbbreviatedPath": "\/img\/photoshop.png",
+		"outputAbbreviatedPath": "\/img\/photoshop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/php.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1689,
+		"inputAbbreviatedPath": "\/img\/php.png",
+		"outputAbbreviatedPath": "\/img\/php.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/premiere.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6595,
+		"inputAbbreviatedPath": "\/img\/premiere.png",
+		"outputAbbreviatedPath": "\/img\/premiere.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projet.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -155,6 +254,28 @@
 		"initialSize": 4834,
 		"inputAbbreviatedPath": "\/img\/projet.png",
 		"outputAbbreviatedPath": "\/img\/projet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sass.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2184,
+		"inputAbbreviatedPath": "\/img\/sass.png",
+		"outputAbbreviatedPath": "\/img\/sass.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sketch.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1869,
+		"inputAbbreviatedPath": "\/img\/sketch.png",
+		"outputAbbreviatedPath": "\/img\/sketch.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1137,6 +1258,24 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/single-creations.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/single-creations.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/single-post.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/single-post.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/style.css": {
 		"fileType": 16,

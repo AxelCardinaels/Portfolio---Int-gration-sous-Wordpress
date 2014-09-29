@@ -64,7 +64,7 @@
                       <?php $image = get_field('vignette_du_projet'); ?>
 
 
-               <a class="projets featured" href="html/energyandcool.html" title="Vers le projet <?php the_field('nom_du_projet') ?>">
+               <a class="projets featured" href="<?php the_permalink() ?>" title="Vers le projet <?php the_field('nom_du_projet') ?>">
                   <figure>
                     <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
                  </figure>
@@ -119,9 +119,9 @@
               <div class="posts">
                   <span class="tag<?php the_field('type')?>">Post du blog : <?php the_field('titre') ?></span> 
                   <div>
-                <h4><?php the_field('titre') ?></h4>
+                 <a class="linkarticle" href ="<?php the_permalink() ?>"><h4><?php the_field('titre') ?></h4></a>
                 
-                <p><?php the_field('description') ?></p>
+                 <a class="linkarticle" href ="<?php the_permalink() ?>"><p><?php the_field('description') ?></p></a>
               </div>
               </div>
             

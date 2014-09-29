@@ -108,10 +108,10 @@
                       $annee = $dateParts[2].$dateParts[3];
                   ?>
                      
-
+              
               <article class="singlearticle">
-                <h4><?php the_field('titre') ?></h4>
-                <p><?php the_field('description') ?></p>
+                <a class="linkarticle" href ="<?php the_permalink() ?>"><h4><?php the_field('titre') ?></h4></a>
+                <a class="linkarticle" href ="<?php the_permalink() ?>"><p><?php the_field('description') ?></p></a>
                 <div class="infosarticle">
                   <p>Le <?php echo $jour.' '.$mois.' '.$annee ?></p>
                   <a class="tag" href="#" title="Article du thème...">#Yolo</a>  

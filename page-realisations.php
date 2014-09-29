@@ -54,7 +54,7 @@
                       <?php $image = get_field('vignette_du_projet'); ?>
 
 
-               <a class="projets listed" href="html/energyandcool.html" title="Vers le projet <?php the_field('nom_du_projet') ?>">
+               <a class="projets listed" href="<?php the_permalink() ?>" title="Vers le projet <?php the_field('nom_du_projet') ?>">
                   <figure>
                     <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
                  </figure>
