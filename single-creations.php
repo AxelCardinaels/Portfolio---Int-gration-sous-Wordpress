@@ -62,15 +62,7 @@
             <div class="textes">
               
 
-              <p><?php the_field('para1')?></p>
-              <?php if(empty(the_field('para2'))): ?>
-              <?php else: ?>
-              <p><?php the_field('para2') ?></p>
-              <?php endif; ?>
-               <?php if(empty(the_field('para3'))): ?>
-              <?php else: ?>
-              <p><?php the_field('para3') ?></p>
-              <?php endif; ?>
+              <?php the_field('contenu')?>
             </div>
             <h4> Outils utilisés</H4>
             

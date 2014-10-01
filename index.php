@@ -66,7 +66,7 @@
 
                <a class="projets featured" href="<?php the_permalink() ?>" title="Vers le projet <?php the_field('nom_du_projet') ?>">
                   <figure>
-                    <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
+                    <img class="imgpreview" src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
                  </figure>
 
                   <div>
@@ -130,11 +130,7 @@
           <?php wp_reset_query(); ?>   
               <div class="twitter">
                 <h4> Mes derniers tweets </h4>
-
-                <div>
-                  <p>dskfsdpgs</p>
-                  <p>dskfsdpgs</p>
-                </div>
+                <a class="twitter-timeline" href="https://twitter.com/AxelCardinaels" data-widget-id="516839973958328320">Tweets de @AxelCardinaels</a>
 
               </div>
 
@@ -144,3 +140,6 @@
         </div>
 
          <?php get_footer(); ?>
+
+
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

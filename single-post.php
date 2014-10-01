@@ -57,18 +57,9 @@
             <div class="singlepost">
               
 
-              <p><?php the_field('para1')?></p>
+              <?php the_field('contenu')?>
               
-              <?php for($i=2;$i<=10;$i++): ?>
-               <p><?php echo $i ?> </p>
-              <?php if(!empty(the_field('para'.$i))): ?>
-               <p><?php the_field('para'.$i) ?></p>
               
-              <?php else: ?>
-             
-              <?php endif; ?>
-              
-              <?php endfor; ?>
             </div>
           
           

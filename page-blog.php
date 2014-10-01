@@ -65,44 +65,20 @@
                       $jour = $dateParts[0];
                       $mois = $dateParts[1];
 
-                      switch ($mois) {
-                        case 01:
-                            $mois = 'janvier';
-                            break;
-                        case 02:
-                            $mois = 'février';
-                            break;
-                        case 03:
-                            $mois = 'mars';
-                            break;
-                        case 04:
-                            $mois = 'avril';
-                            break;
-                        case 05:
-                            $mois = 'mai';
-                            break;
-                        case 06:
-                            $mois = 'juin';
-                            break;
-                        case 07:
-                            $mois = 'juillet';
-                            break;
-                        case 08:
-                            $mois = 'aout';
-                            break;
-                        case 09:
-                            $moisok = 'septembre';
-                            break;
-                        case 10:
-                            $mois = 'octobre';
-                            break;
-                        case 11:
-                            $mois = 'novembre';
-                            break;
-                        case 12:
-                            $mois = 'décembre';
-                            break;
-                    };
+                      $tablemois =['01' => 'janvier',
+                      '02' => 'février',
+                      '03' => 'mars',
+                      '04' => 'avril',
+                      '05' => 'mai',
+                      '06' => 'juin',
+                      '07' => 'juillet',
+                      '08' => 'aout',
+                      '09' => 'septembre',
+                      '10' => 'octobre',
+                      '11' => 'novembre',
+                      '12' => 'décembre'];
+
+                      
 
 
                       $annee = $dateParts[2].$dateParts[3];
@@ -113,7 +89,7 @@
                 <a class="linkarticle" href ="<?php the_permalink() ?>"><h4><?php the_field('titre') ?></h4></a>
                 <a class="linkarticle" href ="<?php the_permalink() ?>"><p><?php the_field('description') ?></p></a>
                 <div class="infosarticle">
-                  <p>Le <?php echo $jour.' '.$mois.' '.$annee ?></p>
+                  <p>Le <?php echo $jour.' '.$tablemois[$mois].' '.$annee ?></p>
                   <a class="tag" href="#" title="Article du thème...">#Yolo</a>  
                   <a class="tag" href="#" title="Article du thème...">#Coast</a>
                 </div>

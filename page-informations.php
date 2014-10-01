@@ -56,12 +56,14 @@
         </section>
         <section class="titresans">
 
-          <h3> Soyons bref : </h4>
           
           <div class="bio">
+
             <span class="portrait">
               <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
             </span>
+
+             <h4> Soyons brefs : </h4>
             <p> <?php the_field('para1') ?> </p>
             <p> <?php the_field('para2') ?> </p>
             <p> <?php the_field('para3') ?> </p>

@@ -56,7 +56,7 @@
 
                <a class="projets listed" href="<?php the_permalink() ?>" title="Vers le projet <?php the_field('nom_du_projet') ?>">
                   <figure>
-                    <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
+                    <img class="imgpreview" src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
                  </figure>
 
                   <div>

@@ -1,0 +1,68 @@
+footer{
+	width:100%;
+	margin:100px auto 0px auto;
+	border-top: 1.5px solid #DDDDDD;
+	clear:both;
+	
+
+	.logosfooter{
+		text-align: center;
+		margin:80px auto;
+	
+	
+	a{
+		
+		height:40px;
+		display: inline-block;
+		overflow: hidden;
+		background-image: url('img/socialsprite.png');
+		@include transition_css(all,0.15s,ease-in-out,0);
+		display: inline-block;
+		margin-right:10%; 
+			&:last-child{
+				margin:0px;
+			}
+
+
+
+	}
+}
+	.dribbble{
+		
+		width:40px;
+		background-position:-81px 0px;
+
+		&:hover{
+			background-position: -81px -78px;
+		}
+	}
+
+	.behance{
+		width:62px;
+		background-position:0 0px;
+
+		&:hover{
+			background-position: 0px -78px;
+		}
+
+	}
+
+	a.twitter{
+		width:47px;
+		background-position:-304px -1px;
+
+		&:hover{
+			background-position: -304px -78px;
+		}
+	}
+
+	.linkedin{
+		width:145px;
+		background-position:-139px -1px;
+
+		&:hover{
+			background-position: -139px -78px;
+
+		}
+	}
+}
