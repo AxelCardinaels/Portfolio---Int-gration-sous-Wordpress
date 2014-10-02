@@ -37,7 +37,7 @@
           </nav>
         </header>
         
-        <div class="container">
+        <div class="container clearfix">
 
           <?php $projets = new WP_Query(array(
                         'pagename' => 'informations',
@@ -49,8 +49,8 @@
                       <?php while($projets->have_posts()): $projets->the_post()?>
                       <?php $image = get_field('photo'); ?>
         <section>
-          <div class="intro introabout">
-            <h3> Introduction </h3>
+          <div class="intro with">
+            <h3 class="visuallyhidden"> Introduction </h3>
             <blockquote>« <?php the_field('intro') ?> »</blockquote>
           </div>
         </section>

@@ -1,26 +1,20 @@
+.intro{		
+	color:#676767;
+	width:83.333333333333%; //1000px
+}
 
-	.intro{
-		font-size: 26px;
-		font-style: italic;
-		font-weight: lighter;
-		text-align: center;
-		padding: 0px 0px 90px;
-		color:#676767;
-		width:83.333333333333%; //1000px
+.without{
+	margin-bottom: 90px;
+}
+
+.with{
+	margin: 90px auto;
+}
 
 
-		margin: 0px auto;
 
-		h3{
-			position: absolute;
-			text-indent: -9999px;
-			visibility: hidden;
-		}
+h3.visuallyhidden{
+	padding:0px;
+	margin:0px;
+}
 		
-	}
-
-	.introabout{
-
-		padding-bottom:0px;
-
-	}

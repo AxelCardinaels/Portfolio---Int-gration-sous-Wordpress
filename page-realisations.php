@@ -37,7 +37,7 @@
           
           </nav>
         </header>
-        <div class="container">
+        <div class="container clearfix">
 
           <section>
 

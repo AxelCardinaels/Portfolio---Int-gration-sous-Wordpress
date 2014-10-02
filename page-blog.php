@@ -33,7 +33,7 @@
 
         ?>
         </header>
-        <div class="container">
+        <div class="container clearfix">
 
         
           <section class="articleslist">
@@ -86,8 +86,10 @@
                      
               
               <article class="singlearticle">
-                <a class="linkarticle" href ="<?php the_permalink() ?>"><h4><?php the_field('titre') ?></h4></a>
-                <a class="linkarticle" href ="<?php the_permalink() ?>"><p><?php the_field('description') ?></p></a>
+                <a class="linkarticle" href ="<?php the_permalink() ?>">
+                  <h4><?php the_field('titre') ?></h4>
+                  <p><?php the_field('description') ?></p>
+                </a>
                 <div class="infosarticle">
                   <p>Le <?php echo $jour.' '.$tablemois[$mois].' '.$annee ?></p>
                   <a class="tag" href="#" title="Article du thème...">#Yolo</a>  

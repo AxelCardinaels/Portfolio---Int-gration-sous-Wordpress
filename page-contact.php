@@ -34,7 +34,7 @@
         ?>
           </nav>
         </header>
-        <div class="container">
+        <div class="container clearfix">
 
         
           <section class="titresans">
@@ -56,7 +56,8 @@
            </div>
 
             <div class="messageform">
-              <div class="intro">
+              <div class="intro without">
+                <h3 class="visuallyhidden"> Introuction </h3>
                 <blockquote>« <?php the_field('intro') ?> »</blockquote>
             </div>
               <form method="post">
@@ -69,7 +70,7 @@
                 <label class="visuallyhidden" for="message">Votre nom</label>
                 <textarea name="message" placeholder="Votre message"></textarea>
               
-                <input type="submit" value="Envoyer le message" class="allproject"/>
+                <input type="submit" value="Envoyer le message" class="bouton"/>
               </form>
             </div>
             

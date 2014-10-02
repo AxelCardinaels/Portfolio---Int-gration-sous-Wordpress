@@ -14,12 +14,9 @@
 		z-index: 2;
 		color:white;
 		width: 100%;
-		text-align: left;
 		padding:30px;
-		font-size: 0.95em;
 
 			h4{
-				font-size: 1.2em;
 				margin-bottom:10px;
 			}
 
@@ -53,7 +50,7 @@
 	}
 
 	&:last-child{
-		margin-bottom:125px;
+		margin-bottom:0px;
 		}
 }
 

@@ -44,9 +44,9 @@
       
                      
            <section>
-            <div class="intro introabout">
+            <div class="intro with">
 
-              <h3> Introduction </h3>
+              <h3 class="visuallyhidden"> Introduction </h3>
               <blockquote>« <?php the_field('titre') ?> »</blockquote>
             </div>
           </section>

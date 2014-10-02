@@ -1,0 +1,71 @@
+
+
+
+
+
+.oupeye{
+		
+		width:100%;
+		position: absolute;
+		z-index: 2;
+		left:0px;
+		color:white;
+		background:rgba(1,1,1,0.3);
+		height:100%;
+		text-align: center;
+		@include transition_css(all,0.5s,ease-in-out,0);
+		
+		&>p{
+			position: absolute;
+			top:50%;
+			width:100%;
+		}
+
+}
+
+
+#map-canvas{
+	width:100%;
+	height:100%;		
+	position: absolute;
+	z-index: 1;
+}
+
+	
+.map{
+	@include span(7 of 15);
+	height:560px;
+	position: relative;
+
+	&:hover .oupeye{
+		opacity: 0;
+
+	}
+		
+}
+
+.messageform{
+	@include span(7 of 15);
+	@include last;
+
+	input, textarea{
+		width:100%;
+		border:1px #67676 solid;
+	}
+
+	input:focus, textarea:focus{
+		border:none;
+		outline: none;
+	}
+
+	input[type="text"]{
+		margin-bottom:25px;
+		padding:15px 10px;
+	}
+	
+	textarea{
+		height:178px;
+		margin-bottom:20px;
+	}
+			
+}

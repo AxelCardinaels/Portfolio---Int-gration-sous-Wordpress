@@ -1,0 +1,135 @@
+
+.posts{
+	@include span(7 of 12);
+	margin-bottom:20px;
+	padding-left: 65px;
+			
+	h4{
+		margin-bottom:5px;
+		
+	}	
+}
+
+.postsblog{
+
+	position: relative;
+		
+	span{
+		width:35px;
+		height:35px;
+		text-indent: -9999px;
+		background: black;
+		display:inline-block;
+		border-radius: 100%;
+		position:absolute;
+		left:0px;
+	}
+
+	.tagblog{
+		background:url("img/blog.png") no-repeat center;
+		background-size: 100%;
+	}
+
+	.tagprojet{
+		background:url("img/projet.png") no-repeat center;
+		background-size: 100%;
+	}
+}
+
+
+
+
+.articleslist, .titresans{
+	margin:90px 0px;
+	border:none;
+
+	h3{
+		display:block;
+	}
+}
+
+.tri{
+		text-align: left;
+		border-top:1px solid #C8C8C8;
+		padding-top:10px;
+			
+	a{
+		text-decoration: none;
+		margin-right:20px;
+		padding-top:7px;
+		@include transition_css(all,0.5s,ease,0);
+		border-top:2px solid rgba(1,1,1,0);
+		color:black;
+
+
+		&:last-child{
+			margin:0px;
+		}
+
+		&:hover{
+			border-top:2px solid black;
+		}
+
+	}
+	
+	.triselect{
+		border-top:2px solid black;
+				
+	}
+}
+
+.tag{
+	color:black;
+	margin-right:5px;
+}
+
+
+.linkarticle{
+	text-decoration: none;
+	color:black;
+	display: inline-block;
+}
+
+.singlepost{
+	width:70%;
+	margin:0px auto;
+
+	p{
+		margin-bottom:20px;
+	}
+	
+}
+
+.allarticles{
+	margin-top: 80px;
+
+
+	h4{
+		margin-bottom:5px;
+	}
+
+	.infosarticle{
+		margin-top:15px;
+		
+		p{
+			display: inline;
+			
+			&:after{
+				content:"|";
+				margin:0px 10px;
+			}
+		}
+
+	}
+}
+
+.singlearticle{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom:1px solid #C8C8C8;
+
+	&:last-child{
+		border-bottom:none;
+		margin-bottom: 0px;
+	}
+}

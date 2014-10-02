@@ -1,0 +1,34 @@
+.portrait{
+	@include span(5 of 15);
+	@include first;
+	overflow: hidden;
+	height: 500px;
+	margin-bottom:125px;
+
+	img{
+				
+		width: 100%;
+	}
+}
+
+.bio{
+	@include span(15 of 15);
+}
+
+.bio p, .bio ul{
+	margin-bottom:15px;
+	@include span(9 of 15);
+	@include last;
+}
+
+.bio li{
+	margin-bottom:10px;
+}
+
+.bio h4{
+
+	@include span(9 of 15);
+	@include last;
+	margin:20px auto;
+}
+

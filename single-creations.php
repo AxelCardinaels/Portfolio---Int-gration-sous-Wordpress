@@ -39,16 +39,16 @@
         ?>
           </nav>
         </header>
-        <div class="container">
+        <div class="container clearfix">
 
 
         
       
                      
            <section>
-            <div class="intro">
+            <div class="intro with">
 
-              <h3> Introduction </h3>
+              <h3 class="visuallyhidden"> Introduction </h3>
               <blockquote>« <?php the_field('nom_du_projet') ?> »</blockquote>
             </div>
           </section>
@@ -56,7 +56,7 @@
           <section class="titresans">
 
             <div class="singleprojet">
-            <span class="illuprojet">
+            <span class="illuprojet clearfix">
               <img src="<?php echo $bigimage['url'] ?>" alt="<?php echo $bigimage['alt'] ?>"/>
             </span>
             <div class="textes">
@@ -64,6 +64,7 @@
 
               <?php the_field('contenu')?>
             </div>
+            <div class="outils">
             <h4> Outils utilisés</H4>
             
             <ul>

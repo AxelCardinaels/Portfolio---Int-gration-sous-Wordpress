@@ -38,17 +38,17 @@
         ?>
           </nav>
         </header>
-        <div class="container">
+        <div class="container clearfix">
 
       
           <section>
-            <div class="intro">
+            <div class="intro with">
 
-              <h3> Introduction </h3>
+              <h3 class="visuallyhidden"> Introduction </h3>
               <blockquote>« Passionné de design et traqueur de détails, je réalise des créations web à l’aide de technologies performantes telles que le HTML5, CSS3, Javascript et Php pour vous prodiguer des services de qualité. Je produis également diverses illustrations de temps à autre. »</blockquote>
             </div>
           </section>
-          <section>
+          <section class="clearfix inner">
 
             <h3> Derniers projets publiés </h3>
             <div class="lasttravaux">
@@ -89,7 +89,7 @@
                  <?php wp_reset_query(); ?>
    
 
-               <a class="allproject push" href="http://localhost/wordpress/realisations/" title="Voir tous les projets">Voir les autres projets...</a>
+               <a class="bouton" href="http://localhost/wordpress/realisations/" title="Voir tous les projets">Voir les autres projets...</a>
           
 
             </div>
@@ -98,7 +98,7 @@
 
           </section>
 
-          <section>
+          <section class="clearfix">
 
             <h3>Derniers articles du blogs et tweets</h3>
             <div class="postsblog">
@@ -119,9 +119,9 @@
               <div class="posts">
                   <span class="tag<?php the_field('type')?>">Post du blog : <?php the_field('titre') ?></span> 
                   <div>
-                 <a class="linkarticle" href ="<?php the_permalink() ?>"><h4><?php the_field('titre') ?></h4></a>
+                 <a class="linkarticle" href ="<?php the_permalink() ?>"><h4><?php the_field('titre') ?></h4>
                 
-                 <a class="linkarticle" href ="<?php the_permalink() ?>"><p><?php the_field('description') ?></p></a>
+                <p><?php the_field('description') ?></p></a>
               </div>
               </div>
             
