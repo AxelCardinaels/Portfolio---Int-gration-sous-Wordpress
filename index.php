@@ -41,7 +41,7 @@
         <div class="container clearfix">
 
       
-          <section>
+          <section class="titresans">
             <div class="intro with">
 
               <h3 class="visuallyhidden"> Introduction </h3>

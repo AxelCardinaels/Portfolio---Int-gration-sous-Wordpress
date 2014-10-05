@@ -5,7 +5,7 @@
 
 	img{
 		width:100%;
-		margin-bottom:60px;
+		margin-bottom:3.75em; /*60/16*/
 	}
 
 	&>.textes{
@@ -13,7 +13,7 @@
 
 		
 		p{
-			margin-bottom:20px;
+			margin-bottom:1.25em; /*20/16*/
 
 			&:last-child{
 				margin-bottom:0px;
@@ -29,7 +29,7 @@
 	@include last;
 
 	h4{
-		margin-bottom:30px;
+		margin-bottom:1.33928571428571em; /*30/22.4*/
 	}
 
 	li{

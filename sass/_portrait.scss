@@ -2,8 +2,7 @@
 	@include span(5 of 15);
 	@include first;
 	overflow: hidden;
-	height: 500px;
-	margin-bottom:125px;
+	height: 31.25em; /*500/16*/
 
 	img{
 				
@@ -19,16 +18,19 @@
 	margin-bottom:15px;
 	@include span(9 of 15);
 	@include last;
+	line-height: 1.13;
 }
 
+
+
 .bio li{
-	margin-bottom:10px;
+	margin-bottom:0.625em; /*10/16*/
 }
 
 .bio h4{
 
 	@include span(9 of 15);
 	@include last;
-	margin:20px auto;
+	margin:0px auto 1.04166666666667em; /*20/19.2*/
 }
 

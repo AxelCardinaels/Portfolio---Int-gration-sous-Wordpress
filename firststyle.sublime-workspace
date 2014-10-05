@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
 				"font",
 				"font-weight"
 			],
@@ -46,10 +50,6 @@
 			[
 				"mar",
 				"margin-bottom"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"text-",
@@ -511,7 +511,7 @@
 			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 4820,
+				"buffer_size": 4845,
 				"line_ending": "Unix"
 			}
 		},
@@ -519,23 +519,7 @@
 			"file": "sass/style.scss",
 			"settings":
 			{
-				"buffer_size": 5984,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/_intro.scss",
-			"settings":
-			{
-				"buffer_size": 325,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "sass/_header.scss",
-			"settings":
-			{
-				"buffer_size": 2179,
+				"buffer_size": 946,
 				"line_ending": "Unix"
 			}
 		},
@@ -543,15 +527,42 @@
 			"file": "sass/_footer.scss",
 			"settings":
 			{
-				"buffer_size": 891,
+				"buffer_size": 866,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "sass/_previewprojets.scss",
+			"file": "sass/_portrait.scss",
 			"settings":
 			{
-				"buffer_size": 796,
+				"buffer_size": 422,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_projets.scss",
+			"settings":
+			{
+				"buffer_size": 504,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_fonts.scss",
+			"settings":
+			{
+				"buffer_size": 1100,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "sass/_mediaqueries.scss",
+			"file_size": 0,
+			"file_write_time": 1412258685000000,
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -604,17 +615,34 @@
 	},
 	"file_history":
 	[
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_mediaqueries",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_fonts.scss",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_previewprojets.scss",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-realisations.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_previewprojets",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-informations.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_section.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_blog.scss",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-contact.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-blog.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_ui.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_contact.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_header.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_intro.scss",
+		"/Applications/MAMP/conf/apache/extra/httpd-vhosts.conf",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_projets.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_portrait.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_footer.scss",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/single-creations.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/single-post.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_classUtils.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_scumizer.scss",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-realisations.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-blog.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/page-informations.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_projets",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_classUtils",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/footer.php",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_contact",
+		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/_previewprojets",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/sass/footer.scss",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/header.php",
-		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/footer.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/functions.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/blog.php",
 		"/Applications/MAMP/htdocs/wordpress/wp-content/themes/pf/contact.php",
@@ -714,24 +742,7 @@
 		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/config/routes.php",
 		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genreindex.php",
 		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/userlogin.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/model.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/genreController.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/genre.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/authorindex.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/css/screen.css",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/authorController.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/helpers/filesProcessor.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/genreshow.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/helpers/filesProcressor.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/book.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/index.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/layout.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/userController.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/user.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/views/bookindex.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/config/config.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/controllers/bookController.php",
-		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/editor.php"
+		"/Applications/MAMP/htdocs/coursVilain/Cours5fevrier/models/model.php"
 	],
 	"find":
 	{
@@ -749,6 +760,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"8888",
+			"justify",
+			"single",
+			"article",
+			"location",
 			".intro",
 			".projet",
 			"header",
@@ -871,12 +887,7 @@
 			"couleurconta",
 			"agenda",
 			"H3",
-			"h4",
-			"couleur",
-			"html/",
-			"em",
-			"hoverprivefemme",
-			"html/"
+			"h4"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -894,7 +905,7 @@
 	"groups":
 	[
 		{
-			"selected": 3,
+			"selected": 6,
 			"sheets":
 			[
 				{
@@ -902,15 +913,15 @@
 					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 4820,
+						"buffer_size": 4845,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2500,
-								2500
+								1246,
+								1246
 							]
 						],
 						"settings":
@@ -919,8 +930,8 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 1025.0,
+						"translation.x": 4.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -930,15 +941,15 @@
 					"file": "sass/style.scss",
 					"settings":
 					{
-						"buffer_size": 5984,
+						"buffer_size": 946,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								365,
-								365
+								579,
+								579
 							]
 						],
 						"settings":
@@ -954,18 +965,18 @@
 				},
 				{
 					"buffer": 2,
-					"file": "sass/_intro.scss",
+					"file": "sass/_footer.scss",
 					"settings":
 					{
-						"buffer_size": 325,
+						"buffer_size": 866,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								121,
-								121
+								115,
+								115
 							]
 						],
 						"settings":
@@ -981,18 +992,18 @@
 				},
 				{
 					"buffer": 3,
-					"file": "sass/_header.scss",
+					"file": "sass/_portrait.scss",
 					"settings":
 					{
-						"buffer_size": 2179,
+						"buffer_size": 422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								498,
-								498
+								405,
+								405
 							]
 						],
 						"settings":
@@ -1008,18 +1019,18 @@
 				},
 				{
 					"buffer": 4,
-					"file": "sass/_footer.scss",
+					"file": "sass/_projets.scss",
 					"settings":
 					{
-						"buffer_size": 891,
+						"buffer_size": 504,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								891,
-								891
+								312,
+								312
 							]
 						],
 						"settings":
@@ -1035,24 +1046,50 @@
 				},
 				{
 					"buffer": 5,
-					"file": "sass/_previewprojets.scss",
+					"file": "sass/_fonts.scss",
 					"settings":
 					{
-						"buffer_size": 796,
+						"buffer_size": 1100,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								794,
-								794
+								301,
+								301
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/SCSS/SCSS.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "sass/_mediaqueries.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,

@@ -1,11 +1,11 @@
 
 .posts{
 	@include span(7 of 12);
-	margin-bottom:20px;
-	padding-left: 65px;
+	margin-bottom:1.25em; /*20/16*/
+	padding-left: 5.416666666667%; /*65/1200*/
 			
 	h4{
-		margin-bottom:5px;
+		margin-bottom:0.3em;
 		
 	}	
 }
@@ -40,7 +40,7 @@
 
 
 .articleslist, .titresans{
-	margin:90px 0px;
+	margin:5.625em 0px; /*90/16*/
 	border:none;
 
 	h3{
@@ -51,12 +51,12 @@
 .tri{
 		text-align: left;
 		border-top:1px solid #C8C8C8;
-		padding-top:10px;
+		padding-top:0.625em; /*10/16*/
 			
 	a{
 		text-decoration: none;
-		margin-right:20px;
-		padding-top:7px;
+		margin-right:1.666666666667%; /*20/1200*/
+		padding-top:0.4375em; /*7/16*/
 		@include transition_css(all,0.5s,ease,0);
 		border-top:2px solid rgba(1,1,1,0);
 		color:black;
@@ -80,7 +80,7 @@
 
 .tag{
 	color:black;
-	margin-right:5px;
+	margin-right:0.416666666667%; /*5/1200*/
 }
 
 
@@ -95,28 +95,28 @@
 	margin:0px auto;
 
 	p{
-		margin-bottom:20px;
+		margin-bottom:1.04166666666667em; /*19.2/20*/
 	}
 	
 }
 
 .allarticles{
-	margin-top: 80px;
+	margin-top: 5em; /*80/16*/
 
 
 	h4{
-		margin-bottom:5px;
+		margin-bottom:0.3125em; 
 	}
 
 	.infosarticle{
-		margin-top:15px;
+		margin-top:0.9375em; /*15/16*/
 		
 		p{
 			display: inline;
 			
 			&:after{
 				content:"|";
-				margin:0px 10px;
+				margin:0px 0.833333333333%; /*10/1200*/
 			}
 		}
 
@@ -124,8 +124,8 @@
 }
 
 .singlearticle{
-	padding-bottom: 20px;
-	margin-bottom: 20px;
+	padding-bottom: 1.25em; /*20/16*/
+	margin-bottom: 1.25em;
 	border-bottom:1px solid #C8C8C8;
 
 	&:last-child{

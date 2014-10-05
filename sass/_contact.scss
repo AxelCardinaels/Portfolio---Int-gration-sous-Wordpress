@@ -34,7 +34,7 @@
 	
 .map{
 	@include span(7 of 15);
-	height:560px;
+	height:33.5em; /*560/16*/
 	position: relative;
 
 	&:hover .oupeye{
@@ -48,24 +48,39 @@
 	@include span(7 of 15);
 	@include last;
 
+	.fullwidth{
+		margin-left:auto;
+		margin-right:auto;
+		width:90%
+	}
+
 	input, textarea{
 		width:100%;
-		border:1px #67676 solid;
+		border:1px #DCDCDC solid;
+		
 	}
+
+
 
 	input:focus, textarea:focus{
 		border:none;
 		outline: none;
+
 	}
 
 	input[type="text"]{
-		margin-bottom:25px;
-		padding:15px 10px;
+		margin-bottom:1.73611111111111em; /*14.4/25*/
+		padding:0.9em 1.890359168242%; /*15/14.4 et 10/529*/
+
+		&:focus{
+			border-bottom:1px #DCDCDC dashed;
+		}
+
 	}
 	
 	textarea{
-		height:178px;
-		margin-bottom:20px;
+		height:12.36111111111111em;
+		margin-bottom:1.2em;
 	}
 			
 }

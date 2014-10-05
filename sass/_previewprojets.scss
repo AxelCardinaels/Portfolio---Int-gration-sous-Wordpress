@@ -14,7 +14,7 @@
 		z-index: 2;
 		color:white;
 		width: 100%;
-		padding:30px;
+		padding:2.08333333333333em; /*30/14.4*/
 
 			h4{
 				margin-bottom:10px;
@@ -33,7 +33,7 @@
 
 .featured{
 	@include span(7 of 15);
-	margin-bottom:90px;
+	margin-bottom:5.625em; /*90/16*/
 				
 	&:nth-child(even){
 		@include last;
@@ -42,8 +42,8 @@
 
 .listed{
 	@include span(5 of 16);
-	margin-bottom:50px;
-	margin-right:50px;
+	margin-bottom:3.125em; /*50/16*/
+	margin-right:4.166666666667%; /*50/365*/
 
 	&:nth-child(3n+3){
 		margin-right:0px;

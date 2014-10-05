@@ -56,7 +56,7 @@
            </div>
 
             <div class="messageform">
-              <div class="intro without">
+              <div class="intro without fullwidth">
                 <h3 class="visuallyhidden"> Introuction </h3>
                 <blockquote>« <?php the_field('intro') ?> »</blockquote>
             </div>
