@@ -44,7 +44,6 @@
             <div class="tri">
               <a href="#" title="Trier les articles par date" class="triselect">Chronologiquement</a>
               <a href="#" title="Trier les articles par tags">Par thème</a>
-              <a href="#" title="Trier les articles par provenance">Par provenance</a>
 
 
             </div>

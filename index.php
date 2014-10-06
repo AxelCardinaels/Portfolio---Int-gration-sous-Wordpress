@@ -7,7 +7,8 @@
     <header class="home">
        <video autoplay loop>
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
-           <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
+          <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
+
         </video>
       <div class="textheader">
         <h1>Axel Cardinaels,</h1>
@@ -128,7 +129,7 @@
                 
            <?php endwhile; ?>
           <?php wp_reset_query(); ?>   
-              <div class="twitter">
+              <div class="twitter" id="twitter">
                 <h4> Mes derniers tweets </h4>
                 <a class="twitter-timeline" href="https://twitter.com/AxelCardinaels" data-widget-id="516839973958328320">Tweets de @AxelCardinaels</a>
 

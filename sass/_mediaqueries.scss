@@ -1,0 +1,151 @@
+
+@media all and (min-width:1250px) and (max-width:1300px){
+
+	.posts{
+			@include span(6 of 12);
+	}
+
+
+}
+
+
+@media all and (min-width:1000px) and (max-width:1249px){
+
+	.posts{
+			@include span(6 of 12);
+	}
+
+
+}
+
+
+@media all and (max-width:999px){
+
+	.posts, #twitter{
+		display:inline-block;
+		width:100%;
+		float:none;
+
+	}
+
+	.posts{
+		padding-left:10%;
+	}
+
+	#twitter{		
+		margin-top:5em;
+	}
+
+	.bouton{
+		width:35%;
+	}
+
+
+}
+
+@media all and (max-width:850px){
+	
+
+
+	a.featured, a.listed{
+		width:100%;
+		margin-bottom:3em;
+
+	}
+
+
+	.projets:hover div{
+		visibility: hidden;
+
+	}
+
+	header{
+
+		.textheader{
+			width:80%;
+			margin:0px auto;
+		}
+	}
+
+		.largeillu{
+		height:100%;
+		width:auto;
+	}
+
+
+
+}
+
+@media all and (max-width:600px){
+
+	
+	.portrait, .bio p, .bio ul, .bio h4, .messageform, .singleprojet div.textes, div.outils, .outils ul,{
+		width:100%;
+
+	}
+
+
+
+	.map{
+		display:none;
+	}
+
+
+	.portrait, .singleprojet div.textes{
+		margin-bottom:2em;
+	}
+
+	div.container{
+		width: 90%;
+	}
+
+	header nav{
+		font-size:0.9em;
+	}
+
+	.singlepost, .bio h4, .projets div h4, {
+	font-size:0.9em;
+}
+
+.bouton{
+		width:60%;
+	}
+
+		.posts{
+		padding-left:15%;
+	}
+
+	.container section h3{
+		font-size:1em;
+		top:-10px;
+	}
+
+	.intro{
+		font-size:1.4em;
+	}
+
+
+	footer .logosfooter a{
+		margin:0px auto 2em;
+		display:block;
+
+			&:last-child{
+				margin:0px auto 2em;
+			}
+	}
+
+	header{
+
+
+
+	h1{
+		font-size: 2.1em; /*50/16*/
+	}
+
+	h2{
+		font-size:1.9em; /*40/16*/
+	}
+}
+	
+}
+

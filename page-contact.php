@@ -39,7 +39,7 @@
         
           <section class="titresans">
 
-            <h3>Me dire bonjour !</h3>
+            <h3>Dites moi bonjour !</h3>
 
              <?php $projets = new WP_Query(array(
                         'pagename' => 'contact',
