@@ -1,8 +1,18 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if IE 7]>
+  <html class="no-js lt-ie9 lt-ie8">
+  <link href="<?php echo get_stylesheet_uri()."ie7.css"; ?>" rel="stylesheet"/> 
+<![endif]-->
+
+<!--[if IE 8]>         
+  <html class="no-js lt-ie9"> 
+  <link href="<?php echo get_stylesheet_uri()."ie8.css"; ?>" rel="stylesheet"/> 
+<![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js">
+<link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet"/>
+ <!--<![endif]-->
 <html lang="fr">
   <head>
     <meta charset="<?php bloginfo('charset') ?>">
@@ -10,8 +20,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="<?php bloginfo('description') ?>">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="<?php echo get_stylesheet_uri(); ?>" rel="stylesheet"/>
-    <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <script src="http://www.axelcardinaels.be/modernizr-2.6.2.min.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js"></script>
     <script>
 

@@ -1,5 +1,5 @@
  </div>
-        <footer>
+        <footer class="clearfix">
             <div class="logosfooter">
                 <a class="dribbble" href="http://dribbble.com/AxelCardinaels" title="Vers mon profil Dribbble" target="_blank">
               </a>

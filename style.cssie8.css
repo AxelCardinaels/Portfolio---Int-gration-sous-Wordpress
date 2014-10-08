@@ -679,7 +679,8 @@ section {
 
 /* line 4, sass/_fonts.scss */
 body, html {
-  font-family: "source sans pro"; }
+  font-family: "source sans pro"; 
+background-color:red;}
 
 /* line 10, sass/_fonts.scss */
 .posts p, .messageform input, .messageform textarea, .projets div {
