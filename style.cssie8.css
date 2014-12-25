@@ -1,5 +1,4 @@
 /* Welcome to Compass.
-/* Welcome to Compass.
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
@@ -679,8 +678,7 @@ section {
 
 /* line 4, sass/_fonts.scss */
 body, html {
-  font-family: "source sans pro"; 
-background-color:red;}
+  font-family: 'Source Sans Pro', sans-serif; }
 
 /* line 10, sass/_fonts.scss */
 .posts p, .messageform input, .messageform textarea, .projets div {
@@ -728,7 +726,7 @@ header h2 {
   /*40/16*/ }
 /* line 58, sass/_fonts.scss */
 header .textheader {
-  font-weight: bold; }
+  font-weight: 700; }
 /* line 61, sass/_fonts.scss */
 header nav {
   font-size: 1.125em;

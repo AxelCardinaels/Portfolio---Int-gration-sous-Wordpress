@@ -1,8 +1,8 @@
 
 
 
-body,html{
-	font-family: 'source_sans_proregular';
+body,html, textarea{
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -12,11 +12,11 @@ body,html{
 }
 
 nav, .intro, .singlepost, .singlearticle, .bio p, .bio ul, .singleprojet{
-	font-family: 'source_sans_prolight';
+	font-weight:300;
 }
 
 .posts h4, .allarticles h4, .twitter h4, .bio h4{
-	font-family: 'source_sans_prosemibold';
+	font-weight: 600
 }
 
 .posts, .singleprojet .textes{
@@ -56,7 +56,7 @@ header{
 	}
 
 	.textheader{
-		font-family: 'source_sans_probold';
+		font-weight: 700;
 	}
 	nav{
 		font-size: 1.125em; /*18/16*/

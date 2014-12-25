@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"font-",
+				"font-family"
+			],
+			[
 				"backgron",
 				"background-size"
 			],
@@ -90,10 +94,6 @@
 			[
 				"z-",
 				"z-index"
-			],
-			[
-				"font-",
-				"font-style"
 			],
 			[
 				"padding",
@@ -559,7 +559,15 @@
 			"file": "sass/_fonts.scss",
 			"settings":
 			{
-				"buffer_size": 1101,
+				"buffer_size": 1104,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_fontface.scss",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -567,7 +575,7 @@
 			"file": "sass/_mediaqueries.scss",
 			"settings":
 			{
-				"buffer_size": 1435,
+				"buffer_size": 1438,
 				"line_ending": "Unix"
 			}
 		},
@@ -591,7 +599,7 @@
 			"file": "sass/_header.scss",
 			"settings":
 			{
-				"buffer_size": 2019,
+				"buffer_size": 2015,
 				"line_ending": "Unix"
 			}
 		},
@@ -607,7 +615,7 @@
 			"file": "header.php",
 			"settings":
 			{
-				"buffer_size": 4204,
+				"buffer_size": 4325,
 				"line_ending": "Unix"
 			}
 		},
@@ -623,7 +631,15 @@
 			"file": "style.cssie8.css",
 			"settings":
 			{
-				"buffer_size": 22115,
+				"buffer_size": 22081,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/_contact.scss",
+			"settings":
+			{
+				"buffer_size": 1020,
 				"line_ending": "Unix"
 			}
 		}
@@ -821,6 +837,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"large",
+			"font/",
+			"font",
+			"sourcesanspro",
 			"body",
 			"nav",
 			"8888",
@@ -944,11 +964,7 @@
 			"contact.html",
 			"mailto",
 			"contact",
-			"siteweb",
-			"email",
-			"nom",
-			"couleurconta",
-			"agenda"
+			"siteweb"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -966,7 +982,7 @@
 	"groups":
 	[
 		{
-			"selected": 13,
+			"selected": 12,
 			"sheets":
 			[
 				{
@@ -992,7 +1008,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 680.0,
+						"translation.y": 1779.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1009,8 +1025,8 @@
 						"selection":
 						[
 							[
-								879,
-								879
+								705,
+								644
 							]
 						],
 						"settings":
@@ -1019,7 +1035,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 411.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -1114,42 +1130,15 @@
 					"file": "sass/_fonts.scss",
 					"settings":
 					{
-						"buffer_size": 1101,
+						"buffer_size": 1104,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								826,
-								739
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 717.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "sass/_mediaqueries.scss",
-					"settings":
-					{
-						"buffer_size": 1435,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1091,
-								1091
+								22,
+								22
 							]
 						],
 						"settings":
@@ -1164,7 +1153,62 @@
 					"type": "text"
 				},
 				{
+					"buffer": 6,
+					"file": "sass/_fontface.scss",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 43.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
 					"buffer": 7,
+					"file": "sass/_mediaqueries.scss",
+					"settings":
+					{
+						"buffer_size": 1438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								58,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "page-contact.php",
 					"settings":
 					{
@@ -1192,7 +1236,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "page-blog.php",
 					"settings":
 					{
@@ -1220,19 +1264,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "sass/_header.scss",
 					"settings":
 					{
-						"buffer_size": 2019,
+						"buffer_size": 2015,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								642,
-								624
+								1400,
+								1423
 							]
 						],
 						"settings":
@@ -1241,13 +1285,13 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1493.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "sass/_ui.scss",
 					"settings":
 					{
@@ -1274,19 +1318,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "header.php",
 					"settings":
 					{
-						"buffer_size": 4204,
+						"buffer_size": 4325,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								350,
-								350
+								1149,
+								1052
 							]
 						],
 						"settings":
@@ -1302,7 +1346,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "footer.php",
 					"settings":
 					{
@@ -1330,19 +1374,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "style.cssie8.css",
 					"settings":
 					{
-						"buffer_size": 22115,
+						"buffer_size": 22081,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17265,
-								17265
+								0,
+								0
 							]
 						],
 						"settings":
@@ -1353,6 +1397,33 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "sass/_contact.scss",
+					"settings":
+					{
+						"buffer_size": 1020,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								744,
+								744
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 681.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

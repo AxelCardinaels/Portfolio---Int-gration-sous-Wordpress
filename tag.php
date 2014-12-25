@@ -1,4 +1,7 @@
- <?php get_header(); ?>
+
+<?php get_header() ?>
+
+
     
     <header>
        <video autoplay loop>
@@ -11,7 +14,9 @@
       </div>
       <nav>
           <h3>Menu</h3>
-           <?php         
+           <?php
+
+
           $args = array(
             'theme_location'  => 'top',
             'menu'            => '',
@@ -35,15 +40,14 @@
         </header>
         <div class="container clearfix">
 
-        
+        	
           <section class="articleslist">
-            <h3>Liste des articles</h3>
+            <h3>Liste des articles pour le tag "<?php $actualTag = single_tag_title();  ?>"</h3>
 
 
             
             <div class="tri">
               <a href="#" title="Trier les articles par date" class="triselect">Chronologiquement</a>
-              <a href="#" title="Trier les articles par tags">Par thème</a>
 
 
             </div>
@@ -52,6 +56,7 @@
 
               <?php $projets = new WP_Query(array(
                         'post_type' => 'post',
+                        'tag' => $tag,
                         'orderby' => 'date',
                         'order' => 'DESC',
 
@@ -117,3 +122,4 @@
         </div>
 
         <?php get_footer(); ?>
+

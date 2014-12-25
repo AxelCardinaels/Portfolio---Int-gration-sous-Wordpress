@@ -90,12 +90,20 @@
 	display: inline-block;
 }
 
-.singlepost{
-	width:70%;
+.article__tag, .singlepost{
+	width:75%;
 	margin:0px auto;
+}
+
+.singlepost{
 
 	p{
-		margin-bottom:1.04166666666667em; /*19.2/20*/
+		width:75%;
+		margin:0px auto 1.04166666666667em auto;
+	}
+
+	img{
+		width:100%;
 	}
 	
 }

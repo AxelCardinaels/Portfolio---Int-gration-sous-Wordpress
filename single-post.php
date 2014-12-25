@@ -7,9 +7,9 @@
     <header>
       <div class="cache"></div>
       <img class="largeillu" src="<?php echo $banniere['url'] ?>" alt="<?php echo $banniere['alt'] ?>"/>
-      <div class="textheader">
-        <h1>Axel Cardinaels,</h1>
-        <h2>Dévelopeur web</h2>
+      <div class="textheader article__titre">
+        <h1><?php the_field('titre') ?></h1>
+        
       </div>
       <nav>
           <h3>Menu</h3>
@@ -39,18 +39,6 @@
         </header>
         <div class="container">
 
-
-        
-      
-                     
-           <section>
-            <div class="intro with">
-
-              <h3 class="visuallyhidden"> Introduction </h3>
-              <blockquote>« <?php the_field('titre') ?> »</blockquote>
-            </div>
-          </section>
-
           <section class="titresans">
 
             
@@ -58,13 +46,24 @@
               
 
               <?php the_field('contenu')?>
+              <div class="article__tag">
+                <?php $posttags = get_the_tags() ?>
+                      <?php if ($posttags): ?>
+                        <?php foreach($posttags as $tag): ?>
+                            <a class="tag" href="<?php echo get_tag_link($tag->term_taxonomy_id) ?>" title="Articles tagués <?php echo $tag->name ?>"><?php echo $tag->name ?></a> 
+                        <?php endforeach ?>
+                      <?php endif; ?>
+              </div>
+
               
               
             </div>
+
+             <?php endwhile; ?>
           
           
           
-            <?php endwhile; ?>
+           
           </section>
 
 

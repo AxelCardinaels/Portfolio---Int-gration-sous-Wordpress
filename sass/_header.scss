@@ -21,6 +21,10 @@
 	}
 }
 
+.article__titre{
+	text-align: center;
+}
+
 header{
 	background:black;
 	width:100%;
@@ -42,7 +46,7 @@ header{
 
 	.largeillu{
 		width:100%;
-		min-height:100%;
+		height:auto;
 		position: absolute;
 		z-index: 0;
 	}
