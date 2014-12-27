@@ -1,3 +1,54 @@
+<?php
+  if (!empty($_POST))
+  {
+    //
+    // Configuration de l'email
+    //
+    $destinataire   = 'axel.cardinaels@gmail.com';
+    $objet      = 'AxelCardinaels.be - Vous avez un message';
+
+    //
+    // Initialisation de quelques variables
+    //
+    $message = [];
+    extract($_POST);
+
+    //
+    // Vérifications et envoi de l'email
+    //
+    if ($nom && $email && filter_var($email, FILTER_VALIDATE_EMAIL) && $message)
+    {
+      $headers  = 'From :' . $nom . ' <' . $email . '>' . '\r\n';
+      $headers .= 'Reply-To : ' . $email . '\r\n';
+      $headers .= 'Le message : ' . $message . '\r\n';
+
+      if(mail($destinataire, $objet, $headers))
+      {
+        $message = [
+          'type'    => 'success',
+          'message' => 'Le message a été correctement envoyé.'
+        ];
+      }
+      else
+      {
+        $message = [
+          'type'    => 'error',
+          'message' => 'Le message n\'a pas été envoyé. Veuillez réessayer.'
+        ];
+      }
+    }
+    else
+    {
+      $message = [
+        'type'    => 'error',
+        'message' => 'Les champs marqués d\'une astérisque sont obligatoires.'
+      ];
+    }
+  }
+?>
+
+
+
  <?php get_header(); ?>
     
     <header>
@@ -60,9 +111,16 @@
                 <h3 class="visuallyhidden"> Introuction </h3>
                 <blockquote>« <?php the_field('intro') ?> »</blockquote>
             </div>
+
+            <?php
+              if (isset($message))
+              {
+                echo '<p class="' . $message['type'] . '">' . $message['message'] . '</p>';
+              }
+            ?>
               <form method="post">
                 <label class="visuallyhidden" for="nom">Votre nom</label>
-                <input type="text" name="nom" placeholder="Votre Nom"/>
+                <input type="text" name="nom" placeholder="Votre nom"/>
 
                 <label class="visuallyhidden" for="email">Votre email</label>
                 <input type="text" name="email" placeholder="Votre email"/>
