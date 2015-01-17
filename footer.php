@@ -1,16 +1,16 @@
  </div>
         <footer class="clearfix">
-            <div class="logosfooter">
-                <a class="dribbble" href="http://dribbble.com/AxelCardinaels" title="Vers mon profil Dribbble" target="_blank">
+            <div class="footer__logos">
+                <a class="dribbble footer__link" href="http://dribbble.com/AxelCardinaels" title="Vers mon profil Dribbble" target="_blank">
               </a>
 
-               <a class="behance" href="http://www.behance.net/axelcardinaels" title="Vers mon profil Behance" target="_blank">
+               <a class="behance footer__link" href="http://www.behance.net/axelcardinaels" title="Vers mon profil Behance" target="_blank">
               </a>
               
-               <a class="twitter" href="http://twitter.com/AxelCardinaels" title="Vers mon profil Twitter" target="_blank">
+               <a class="twitter footer__link" href="http://twitter.com/AxelCardinaels" title="Vers mon profil Twitter" target="_blank">
               </a>
               
-               <a class="linkedin" href="http://www.linkedin.com/profile/view?id=372285121" title="Vers mon profil LinkedIn" target="_blank">
+               <a class="linkedin footer__link" href="http://www.linkedin.com/profile/view?id=372285121" title="Vers mon profil LinkedIn" target="_blank">
               </a>
             </div>
         </footer>

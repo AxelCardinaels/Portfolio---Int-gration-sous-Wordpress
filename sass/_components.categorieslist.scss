@@ -1,0 +1,54 @@
+
+
+.cat-item, .categories__list, .categories__container{
+	display: inline-block;
+}
+
+.categories{
+	ul{
+		display: inline-block;
+	}
+}
+
+
+
+
+
+.cat-item{
+	margin-left:20px;
+}
+
+.tri{
+		text-align: left;
+		border-top:1px solid #C8C8C8;
+		padding-top:0.5em; /*10/16*/
+			
+	a{
+		text-decoration: none;
+		margin-right:1.666666666667%; /*20/1200*/
+		padding-top:0.4375em; /*7/16*/
+		@include transition_css(all,0.5s,ease,0);
+		border-top:2px solid rgba(1,1,1,0);
+		color:black;
+
+
+		&:last-child{
+			margin:0px;
+		}
+
+		&:hover{
+			border-top:2px solid black;
+		}
+
+	}
+	
+	.triselect, .current-cat a{
+		border-top:2px solid black;
+				
+	}
+}
+
+
+
+
+

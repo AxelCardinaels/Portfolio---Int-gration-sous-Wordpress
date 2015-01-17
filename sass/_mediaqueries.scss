@@ -1,7 +1,7 @@
 
 @media all and (min-width:1250px) and (max-width:1300px){
 
-	.posts{
+	.post{
 			@include span(6 of 12);
 	}
 
@@ -11,7 +11,7 @@
 
 @media all and (min-width:1000px) and (max-width:1249px){
 
-	.posts{
+	.post{
 			@include span(6 of 12);
 	}
 
@@ -21,14 +21,14 @@
 
 @media all and (max-width:999px){
 
-	.posts, #twitter{
+	.post--featured, #twitter{
 		display:inline-block;
 		width:100%;
 		float:none;
 
 	}
 
-	.posts{
+	.post{
 		padding-left:10%;
 	}
 
@@ -40,7 +40,7 @@
 		width:35%;
 	}
 
-			.largeillu{
+	.header__illu{
 		height:100%;
 		width:auto;
 	}
@@ -52,7 +52,7 @@
 	
 
 
-	a.featured, a.listed{
+	a.projets--featured, a.projets--listed{
 		width:100%;
 		margin-bottom:3em;
 
@@ -64,14 +64,12 @@
 
 	}
 
-	header{
 
-		.textheader{
+
+		.header__text{
 			width:80%;
 			margin:0px auto;
 		}
-	}
-
 
 
 
@@ -81,7 +79,7 @@
 @media all and (max-width:600px){
 
 	
-	.portrait, .bio p, .bio ul, .bio h4, .messageform, .singleprojet div.textes, div.outils, .outils ul,{
+	.bio__portrait, .bio p, .history__list, .bio_title, .form-container, .projet__texte, .projet__outils, .outils__list,{
 		width:100%;
 
 	}
@@ -93,19 +91,19 @@
 	}
 
 
-	.portrait, .singleprojet div.textes{
+	.bio__portrait, .projet--single div.textes{
 		margin-bottom:2em;
 	}
 
-	div.container{
+	.wrapper--large{
 		width: 90%;
 	}
 
-	header nav{
+	.menu{
 		font-size:0.9em;
 	}
 
-	.singlepost, .bio h4, .projets div h4, {
+	.single-article, .bio__title, .projets div h4, {
 	font-size:0.9em;
 }
 
@@ -113,21 +111,21 @@
 		width:60%;
 	}
 
-		.posts{
+		.post{
 		padding-left:15%;
 	}
 
-	.container section h3{
+	.wrapper-large section h3{
 		font-size:1em;
 		top:-10px;
 	}
 
 	.intro{
-		font-size:1.4em;
+		font-size:1.2em;
 	}
 
 
-	footer .logosfooter a{
+	.footer__logos .footer__link{
 		margin:0px auto 2em;
 		display:block;
 
@@ -136,18 +134,18 @@
 			}
 	}
 
-	header{
 
 
 
-	h1{
+
+	.header__title{
 		font-size: 2.1em; /*50/16*/
 	}
 
-	h2{
+	.header__subtitle{
 		font-size:1.9em; /*40/16*/
 	}
-}
+
 	
 }
 

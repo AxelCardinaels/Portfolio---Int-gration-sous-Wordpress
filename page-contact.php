@@ -52,16 +52,17 @@
  <?php get_header(); ?>
     
     <header>
-       <video autoplay loop>
+       <video class="header__video" autoplay loop>
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
            <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
         </video>
-      <div class="textheader">
-        <h1>Axel Cardinaels,</h1>
-        <h2>Dévelopeur web</h2>
+      <div class="header__text header__text--usual">
+        <h1 class="header__title">Axel Cardinaels,
+          <span class="header__subtitle">Dévelopeur web</span>
+        </h1>
       </div>
-      <nav>
-          <h3>Menu</h3>
+      <nav class="menu menu--principal">
+          <h3 class="visuallyhidden ">Menu</h3>
           <?php         
           $args = array(
             'theme_location'  => 'top',
@@ -69,7 +70,7 @@
             'container'       => 'ul',
             'container_class' => '',
             'container_id'    => '',
-            'menu_class'      => 'items',
+            'menu_class'      => 'menu__list',
             'menu_id'         => '',
             'echo'            => true,
             'fallback_cb'     => 'wp_page_menu',
@@ -85,12 +86,12 @@
         ?>
           </nav>
         </header>
-        <div class="container clearfix">
+        <div class="wrapper--large clearfix">
 
         
-          <section class="titresans">
+          <section>
 
-            <h3>Dites moi bonjour !</h3>
+            <h3 class="section__title section__title--undecorated">Dites moi bonjour !</h3>
 
              <?php $projets = new WP_Query(array(
                         'pagename' => 'contact',
@@ -103,14 +104,14 @@
             
             <div class="map">
               <div id="map-canvas"></div>
-               <div class="oupeye"><p> Je proviens d'<?php the_field('ville') ?>, près du centre ville de <?php the_field('region') ?> !</p></div>
+               <div class="map__hoverlay"><p> Je proviens d'<?php the_field('ville') ?>, près du centre ville de <?php the_field('region') ?> !</p></div>
            </div>
 
-            <div class="messageform">
-              <div class="intro without fullwidth">
+            <div class="form-container">
+              <div class="intro form__intro">
                 <h3 class="visuallyhidden"> Introuction </h3>
                 <blockquote>« <?php the_field('intro') ?> »</blockquote>
-            </div>
+              </div>
 
             <?php
               if (isset($message))

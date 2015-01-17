@@ -1,0 +1,13 @@
+
+
+
+div[id="twitter"]{
+	@include span(5 of 12);
+	@include last;
+	height:25em; /*400/16*/
+
+	h4{
+		margin-bottom:20px;
+		font-weight: 600;
+	}
+}

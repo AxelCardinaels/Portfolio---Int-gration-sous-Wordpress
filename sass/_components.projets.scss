@@ -1,0 +1,61 @@
+.projet--single{
+	position: relative;
+	color:#494949;
+
+
+}
+
+.projet__illustration--large{
+	width:100%;
+	margin-bottom:3.75em; /*60/16*/
+}
+
+.projet__texte{
+		@include span(7 of 15);
+		
+		p{
+			margin-bottom:1.25em; /*20/16*/
+
+			&:last-child{
+				margin-bottom:0px;
+			}
+		}
+}
+
+.projet__outils{
+
+	@include span(7 of 15);
+	@include last;
+
+}
+
+.outils__list{
+	width:80%;
+	margin: 0px auto;
+}
+
+	.outils__item{
+		@include span(1 of 6);
+		@include first;
+		margin-right:2%;
+
+		&:nth-child(6n+6){
+			margin : 0px;
+		}
+}
+
+.outils__icon{
+	width:100%;
+}
+
+.projet__texte{
+	text-align: justify;
+}
+
+.outils__title{
+	color:#676767;
+	text-align:center;
+	text-transform:uppercase;
+	font-size:1.4em;
+	margin-bottom:1.33928571428571em; /*30/22.4*/
+}

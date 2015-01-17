@@ -2,16 +2,17 @@
 
     
     <header>
-       <video autoplay loop>
+       <video class="header__video" autoplay loop>
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
            <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
         </video>
-      <div class="textheader">
-        <h1>Axel Cardinaels,</h1>
-        <h2>Dévelopeur web</h2>
+      <div class="header__text header__text--usual">
+        <h1 class="header__title">Axel Cardinaels,
+          <span class="header__subtitle">Dévelopeur web</span>
+        </h1>
       </div>
-      <nav>
-          <h3>Menu</h3>
+      <nav class="menu menu--principal">
+          <h3 class="visuallyhidden ">Menu</h3>
 
         <?php         
           $args = array(
@@ -20,7 +21,7 @@
             'container'       => 'ul',
             'container_class' => '',
             'container_id'    => '',
-            'menu_class'      => 'items',
+            'menu_class'      => 'menu__list',
             'menu_id'         => '',
             'echo'            => true,
             'fallback_cb'     => 'wp_page_menu',
@@ -37,11 +38,11 @@
           
           </nav>
         </header>
-        <div class="container clearfix">
+        <div class="wrapper--large clearfix">
 
           <section>
 
-            <h3 class="titresans" > Tous les projets </h3>
+            <h3 class="section__title section__title--undecorated"" > Tous les projets </h3>
             <div class="lasttravaux">
                 <?php $projets = new WP_Query(array(
                         'post_type' => 'creations',
@@ -54,12 +55,12 @@
                       <?php $image = get_field('vignette_du_projet'); ?>
 
 
-               <a class="projets listed" href="<?php the_permalink() ?>" title="Vers le projet <?php the_field('nom_du_projet') ?>">
+               <a class="projets projets--listed" href="<?php the_permalink() ?>" title="Vers le projet <?php the_field('nom_du_projet') ?>">
                   <figure>
-                    <img class="imgpreview" src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
+                    <img class="projets__small-illustration" src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
                  </figure>
 
-                  <div>
+                  <div class="projets__content">
                     <h4>
                      
 

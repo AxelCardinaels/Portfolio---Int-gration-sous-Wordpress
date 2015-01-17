@@ -1,0 +1,71 @@
+.projets{
+	box-shadow: 0px 0px 9px rgba(1,1,1,0.3);
+	position: relative;
+	overflow: hidden;
+
+
+
+	&:hover div{
+		visibility: visible;
+		opacity: 1;
+		bottom:0px;
+	}
+
+}
+
+.projets__content{
+	font-size:0.9em;
+	text-align: left;
+	visibility: hidden;
+	position: absolute;
+	height:100%;
+	bottom:100%;
+	transition:all 0.3s ease-in-out;
+	background: rgba(1,1,1,0.6);
+	opacity: 0;
+	z-index: 2;
+	color:white;
+	width: 100%;
+	padding:2.08333333333333em; /*30/14.4*/
+
+	h4{
+		margin-bottom:10px;
+		font-size:1.2em;
+	}
+
+}
+
+.projets--featured{
+	@include span(7 of 15);
+	margin-bottom:5.625em; /*90/16*/
+				
+	&:nth-child(even){
+		@include last;
+		}
+}
+
+.projets--listed{
+	@include span(5 of 16);
+	margin-bottom:3.125em; /*50/16*/
+	margin-right:4.166666666667%; /*50/365*/
+
+	&:nth-child(3n+3){
+		margin-right:0px;
+	}
+
+	&:last-child{
+		margin-bottom:0px;
+	}
+}
+
+.projets__small-illustration{
+	width: 100%;
+}
+
+.lasttravaux{
+	margin-bottom:5em;
+}
+
+
+
+

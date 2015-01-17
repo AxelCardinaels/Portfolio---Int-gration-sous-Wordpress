@@ -1,0 +1,28 @@
+.section__title{
+	font-size: 1.375em; /*22/16*/
+	color:#676767;
+	position: relative;
+	background: white;
+	
+
+}
+
+.section__title--decorated{
+	padding:0px 2.916666666667%; /*35/1200*/
+	top:-14px;
+	margin-left:auto;
+	margin-right:auto;
+	display:inline-block;
+	margin-bottom:3.63636363636364em; /*80/22*/
+}
+
+.section__title--undecorated{
+	margin:4.375em 0px; /*70/16*/
+}
+
+section h3{
+	font-style: italic;
+	text-align: center;
+}
+
+

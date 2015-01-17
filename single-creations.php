@@ -7,14 +7,15 @@
      <?php $outils = get_field('outils') ?>
 
     <header>
-      <div class="cache"></div>
-      <img class="largeillu" src="<?php echo $banniere['url'] ?>" alt="<?php echo $banniere['alt'] ?>"/>
-      <div class="textheader">
-        <h1>Axel Cardinaels,</h1>
-        <h2>Dévelopeur web</h2>
+      <div class="header__cache"></div>
+      <img class="header__illu" src="<?php echo $banniere['url'] ?>" alt="<?php echo $banniere['alt'] ?>"/>
+      <div class="header__text header__text--usual">
+        <h1 class="header__title">Axel Cardinaels,
+          <span class="header__subtitle">Dévelopeur web</span>
+        </h1>
       </div>
-      <nav>
-          <h3>Menu</h3>
+      <nav class="menu menu--principal">
+          <h3 class="visuallyhidden ">Menu</h3>
           
            <?php         
           $args = array(
@@ -23,7 +24,7 @@
             'container'       => 'ul',
             'container_class' => '',
             'container_id'    => '',
-            'menu_class'      => 'items',
+            'menu_class'      => 'menu__list',
             'menu_id'         => '',
             'echo'            => true,
             'fallback_cb'     => 'wp_page_menu',
@@ -39,38 +40,36 @@
         ?>
           </nav>
         </header>
-        <div class="container clearfix">
+        <div class="wrapper--large clearfix">
 
 
         
       
                      
            <section>
-            <div class="intro with">
+            <div class="intro intro--spaced">
 
               <h3 class="visuallyhidden"> Introduction </h3>
               <blockquote>« <?php the_field('nom_du_projet') ?> »</blockquote>
             </div>
           </section>
 
-          <section class="titresans">
+          <section>
 
-            <div class="singleprojet">
-            <span class="illuprojet clearfix">
-              <img src="<?php echo $bigimage['url'] ?>" alt="<?php echo $bigimage['alt'] ?>"/>
+            <div class="projet--single">
+            <span class="clearfix">
+              <img class="projet__illustration--large" src="<?php echo $bigimage['url'] ?>" alt="<?php echo $bigimage['alt'] ?>"/>
             </span>
-            <div class="textes">
-              
-
+            <div class="projet__texte">
               <?php the_field('contenu')?>
             </div>
-            <div class="outils">
-            <h4> Outils utilisés</H4>
+            <div class="projet__outils">
+            <h4 class="outils__title"> Outils utilisés</H4>
             
-            <ul>
+            <ul class="outils__list">
 
               <?php foreach($outils as $outil): ?>
-              <li><img src="<?php echo get_template_directory_uri()?>/img/<?php echo $outil ?>.png" alt="<?php echo $outil ?>"/></li>
+              <li class="outils__item"><img class="outils__icon" src="<?php echo get_template_directory_uri()?>/img/<?php echo $outil ?>.png" alt="<?php echo $outil ?>"/></li>
             <?php endforeach ?>
             </ul>
           </div>

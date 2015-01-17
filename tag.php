@@ -4,16 +4,17 @@
 
     
     <header>
-       <video autoplay loop>
+       <video class="header__video" autoplay loop>
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
            <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
         </video>
-      <div class="textheader">
-        <h1>Axel Cardinaels,</h1>
-        <h2>Dévelopeur web</h2>
+      <div class="header__text header__text--usual">
+        <h1 class="header__title">Axel Cardinaels,
+          <span class="header__subtitle">Dévelopeur web</span>
+        </h1>
       </div>
-      <nav>
-          <h3>Menu</h3>
+      <nav class="menu menu--principal">
+          <h3 class="visuallyhidden ">Menu</h3>
            <?php
 
 
@@ -23,7 +24,7 @@
             'container'       => 'ul',
             'container_class' => '',
             'container_id'    => '',
-            'menu_class'      => 'items',
+            'menu_class'      => 'menu__list',
             'menu_id'         => '',
             'echo'            => true,
             'fallback_cb'     => 'wp_page_menu',
@@ -38,25 +39,24 @@
 
         ?>
         </header>
-        <div class="container clearfix">
+        <div class="wrapper--large clearfix">
 
         	
-          <section class="articleslist">
-            <h3>Liste des articles pour le tag "<?php $actualTag = single_tag_title();  ?>"</h3>
+          <section>
+            <h3 class="section__title section__title--undecorated">Liste des articles pour le tag "<?php $actualTag = single_tag_title();  ?>"</h3>
 
 
             
             <div class="tri">
-              <a href="#" title="Trier les articles par date" class="triselect">Chronologiquement</a>
+              <a href="http://localhost/wordpress/blog/" title="Trier les articles par date" class="triselect">Chronologiquement</a>
 
 
             </div>
 
-            <div class="allarticles">
+            <div class="blog-unfeatured">
 
               <?php $projets = new WP_Query(array(
                         'post_type' => 'post',
-                        'tag' => $tag,
                         'orderby' => 'date',
                         'order' => 'DESC',
 
@@ -89,17 +89,17 @@
                   ?>
                      
               
-              <article class="singlearticle">
-                <a class="linkarticle" href ="<?php the_permalink() ?>">
-                  <h4><?php the_field('titre') ?></h4>
-                  <p><?php the_field('description') ?></p>
+              <article class="post post--unfeatured">
+                <a class="post__link" href ="<?php the_permalink() ?>">
+                  <h4 class="post__title"><?php the_field('titre') ?></h4>
+                  <p class="post__description"><?php the_field('description') ?></p>
                 </a>
-                <div class="infosarticle">
-                  <p>Le <?php echo $jour.' '.$tablemois[$mois].' '.$annee ?></p>
+                <div class="post__infos">
+                  <p class="post__date">Le <?php echo $jour.' '.$tablemois[$mois].' '.$annee ?></p>
                   <?php $posttags = get_the_tags() ?>
                     <?php if ($posttags): ?>
                       <?php foreach($posttags as $tag): ?>
-                          <a class="tag" href="<?php echo get_tag_link($tag->term_taxonomy_id) ?>" title="Articles tagués <?php echo $tag->name ?>"><?php echo $tag->name ?></a> 
+                          <a class="post__tag" href="<?php echo get_tag_link($tag->term_taxonomy_id) ?>" title="Articles tagués <?php echo $tag->name ?>"><?php echo $tag->name ?></a> 
                       <?php endforeach ?>
                     <?php endif; ?>
                 </div>
@@ -109,7 +109,6 @@
           <?php wp_reset_query(); ?>
 
             </div>
-
             
           </section>
 

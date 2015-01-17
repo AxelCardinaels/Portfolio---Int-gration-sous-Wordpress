@@ -1,0 +1,52 @@
+
+
+.form-container{
+	@include span(7 of 15);
+	@include last;
+
+
+
+	input, textarea{
+		width:100%;
+		border:1px #DCDCDC solid;
+		color:grey;
+		font-size: 1em;
+		
+	}
+
+	textarea:focus{
+		border:1px solid darken(#DCDCDC,15%);
+	}
+
+
+
+	input:focus{
+		border:none;
+		outline: none;
+
+	}
+
+	input[type="text"]{
+		margin-bottom:1.73611111111111em; /*14.4/25*/
+		padding:0.9em 1.890359168242%; /*15/14.4 et 10/529*/
+
+		&:focus{
+			border-bottom:2px darken(#DCDCDC,15%) dashed;
+		}
+
+	}
+	
+	textarea{
+		height:12.36111111111111em;
+		margin-bottom:1.2em;
+		resize:vertical;
+		padding:0.5em 1.890359168242%;
+	}
+			
+}
+
+	.form__intro{
+		margin:0px auto;
+		width:90%;
+		margin-bottom:2em;
+	}

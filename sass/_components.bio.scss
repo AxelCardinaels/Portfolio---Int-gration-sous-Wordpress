@@ -1,0 +1,38 @@
+
+
+.bio{
+	@include span(15 of 15);
+}
+
+.bio p, .history__list{
+	margin-bottom:15px;
+	@include span(9 of 15);
+	@include last;
+	line-height: 1.2;
+	font-weight:300;
+}
+
+
+
+.bio li{
+	margin-bottom:0.625em; /*10/16*/
+}
+
+.bio__title{
+	@include span(9 of 15);
+	@include last;
+	margin:0px auto 1.04166666666667em; /*20/19.2*/
+	font-size:1.2em;
+}
+
+.bio__portrait{
+	@include span(5 of 15);
+	@include first;
+	overflow: hidden;
+	height: 31.25em; /*500/16*/
+
+	img{
+				
+		width: 100%;
+	}
+}

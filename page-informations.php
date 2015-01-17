@@ -1,16 +1,17 @@
  <?php get_header(); ?>
     
     <header>
-       <video autoplay loop>
+       <video class="header__video" autoplay loop>
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
            <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
         </video>
-      <div class="textheader">
-        <h1>Axel Cardinaels,</h1>
-        <h2>Dévelopeur web</h2>
+      <div class="header__text header__text--usual">
+        <h1 class="header__title">Axel Cardinaels,
+          <span class="header__subtitle">Dévelopeur web</span>
+        </h1>
       </div>
-      <nav>
-          <h3>Menu</h3>
+      <nav class="menu menu--principal">
+          <h3 class="visuallyhidden ">Menu</h3>
 
         <?php         
           $args = array(
@@ -19,7 +20,7 @@
             'container'       => 'ul',
             'container_class' => '',
             'container_id'    => '',
-            'menu_class'      => 'items',
+            'menu_class'      => 'menu__list',
             'menu_id'         => '',
             'echo'            => true,
             'fallback_cb'     => 'wp_page_menu',
@@ -37,7 +38,7 @@
           </nav>
         </header>
         
-        <div class="container clearfix">
+        <div class="wrapper--large clearfix">
 
           <?php $projets = new WP_Query(array(
                         'pagename' => 'informations',
@@ -49,26 +50,26 @@
                       <?php while($projets->have_posts()): $projets->the_post()?>
                       <?php $image = get_field('photo'); ?>
         <section>
-          <div class="intro with">
+          <div class="intro intro--spaced">
             <h3 class="visuallyhidden"> Introduction </h3>
             <blockquote>« <?php the_field('intro') ?> »</blockquote>
           </div>
         </section>
-        <section class="titresans">
+        <section>
 
           
           <div class="bio">
 
-            <span class="portrait">
+            <span class="bio__portrait">
               <img src="<?php echo $image['url'] ?>" alt="<?php echo $image['alt'] ?>"/>
             </span>
 
-             <h4> Soyons brefs : </h4>
-            <p> <?php the_field('para1') ?> </p>
-            <p> <?php the_field('para2') ?> </p>
-            <p> <?php the_field('para3') ?> </p>
-            <h4> Rapide historique </H4>
-            <ul>
+             <h4 class="bio__title"> Soyons brefs : </h4>
+              <div class="bio__biographie">
+                <?php the_field('biographie')?>
+              </div>
+            <h4 class="bio__title"> Rapide historique </H4>
+            <ul class="history__list">
               <li><?php the_field('item1') ?></li>
               <li><?php the_field('item2') ?></li>
               <li><?php the_field('item3') ?></Li>
