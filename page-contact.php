@@ -56,9 +56,10 @@
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
            <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
         </video>
-      <div class="header__text header__text--usual">
-        <h1 class="header__title">Axel Cardinaels,
-          <span class="header__subtitle">Dévelopeur web</span>
+     <div itemscope itemtype="http://schema.org/Person" class="header__text header__text--usual">
+        <h1 class="header__title">
+          <span itemprop="name">Axel Cardinaels,</span>
+          <span itemprop="jobTitle" class="header__subtitle">Dévelopeur web</span>
         </h1>
       </div>
       <nav class="menu menu--principal">
@@ -89,7 +90,7 @@
         <div class="wrapper--large clearfix">
 
         
-          <section>
+          <section itemscope itemtype="http://schema.org/Person" class="vcard">
 
             <h3 class="section__title section__title--undecorated">Dites moi bonjour !</h3>
 
@@ -104,7 +105,7 @@
             
             <div class="map">
               <div id="map-canvas"></div>
-               <div class="map__hoverlay"><p> Je proviens d'<?php the_field('ville') ?>, près du centre ville de <?php the_field('region') ?> !</p></div>
+               <div class="map__hoverlay"><p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress" class="adr"><span itemprop="addressLocality" class="locality"> Je proviens d'<?php the_field('ville') ?></span><span itemprop="addressRegion" class="region">, près du centre ville de <?php the_field('region') ?> !</span></p></div>
            </div>
 
             <div class="form-container">
@@ -119,6 +120,8 @@
                 echo '<p class="' . $message['type'] . '">' . $message['message'] . '</p>';
               }
             ?>
+
+              <p itemprop="name" class="fn visuallyhidden">Axel Cardinaels</p>
               <form method="post">
                 <label class="visuallyhidden" for="nom">Votre nom</label>
                 <input type="text" name="nom" placeholder="Votre nom"/>

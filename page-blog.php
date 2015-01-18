@@ -5,9 +5,10 @@
           <source src="<?php echo get_template_directory_uri()?>/video/pluie.mp4" type="video/mp4"/>
            <source src="<?php echo get_template_directory_uri()?>/video/pluie.webm" type="video/webm"/>
         </video>
-      <div class="header__text header__text--usual">
-        <h1 class="header__title">Axel Cardinaels,
-          <span class="header__subtitle">Dévelopeur web</span>
+     <div itemscope itemtype="http://schema.org/Person" class="header__text header__text--usual">
+        <h1 class="header__title">
+          <span itemprop="name">Axel Cardinaels,</span>
+          <span itemprop="jobTitle" class="header__subtitle">Dévelopeur web</span>
         </h1>
       </div>
       <nav class="menu menu--principal">

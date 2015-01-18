@@ -9,9 +9,10 @@
     <header>
       <div class="header__cache"></div>
       <img class="header__illu" src="<?php echo $banniere['url'] ?>" alt="<?php echo $banniere['alt'] ?>"/>
-      <div class="header__text header__text--usual">
-        <h1 class="header__title">Axel Cardinaels,
-          <span class="header__subtitle">Dévelopeur web</span>
+      <div itemscope itemtype="http://schema.org/Person" class="header__text header__text--usual">
+        <h1 class="header__title">
+          <span itemprop="name">Axel Cardinaels,</span>
+          <span itemprop="jobTitle" class="header__subtitle">Dévelopeur web</span>
         </h1>
       </div>
       <nav class="menu menu--principal">
@@ -40,7 +41,7 @@
         ?>
           </nav>
         </header>
-        <div class="wrapper--large clearfix">
+        <div itemscope itemtype="http://schema.org/CreativeWork" class="wrapper--large clearfix">
 
 
         
@@ -50,7 +51,7 @@
             <div class="intro intro--spaced">
 
               <h3 class="visuallyhidden"> Introduction </h3>
-              <blockquote>« <?php the_field('nom_du_projet') ?> »</blockquote>
+              <blockquote itemprop="name">« <?php the_field('nom_du_projet') ?> »</blockquote>
             </div>
           </section>
 
@@ -58,9 +59,9 @@
 
             <div class="projet--single">
             <span class="clearfix">
-              <img class="projet__illustration--large" src="<?php echo $bigimage['url'] ?>" alt="<?php echo $bigimage['alt'] ?>"/>
+              <img itemprop="image" class="projet__illustration--large" src="<?php echo $bigimage['url'] ?>" alt="<?php echo $bigimage['alt'] ?>"/>
             </span>
-            <div class="projet__texte">
+            <div itemprop="description" class="projet__texte">
               <?php the_field('contenu')?>
             </div>
             <div class="projet__outils">
