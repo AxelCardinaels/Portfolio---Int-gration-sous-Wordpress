@@ -45,11 +45,18 @@
 		width:auto;
 	}
 
+	.header__title{
+		font-size: 2em; /*50/16*/
+	} 
+
 
 }
 
 @media all and (max-width:850px){
 	
+		.header__title{
+		font-size: 2em; /*50/16*/
+	} 
 
 
 	a.projets--featured, a.projets--listed{
@@ -78,7 +85,11 @@
 
 @media all and (max-width:600px){
 
-	
+	.header__title{
+		font-size: 2em; /*50/16*/
+	} 
+
+
 	.bio__portrait, .bio p, .history__list, .bio_title, .form-container, .projet__texte, .projet__outils, .outils__list,{
 		width:100%;
 
@@ -149,3 +160,11 @@
 	
 }
 
+
+@media all and (max-width:400px){
+
+	.header__title{
+		font-size: 1.5em; /*50/16*/
+	} 
+
+}

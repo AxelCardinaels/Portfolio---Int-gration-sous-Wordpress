@@ -18,9 +18,9 @@
     //
     if ($nom && $email && filter_var($email, FILTER_VALIDATE_EMAIL) && $message)
     {
-      $headers  = 'From :' . $nom . ' <' . $email . '>' . '\r\n';
-      $headers .= 'Reply-To : ' . $email . '\r\n';
-      $headers .= 'Le message : ' . $message . '\r\n';
+      $headers  = 'From :' . $nom . ' <' . $email . '>' . ' ';
+      $headers .= 'Reply-To : ' . $email . ' ';
+      $headers .= 'Le message : ' . $message;
 
       if(mail($destinataire, $objet, $headers))
       {
@@ -45,6 +45,7 @@
       ];
     }
   }
+
 ?>
 
 

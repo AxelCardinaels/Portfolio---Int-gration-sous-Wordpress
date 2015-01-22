@@ -38,6 +38,8 @@
 .projets--featured{
 	@include span(7 of 15);
 	margin-bottom:5.625em; /*90/16*/
+	max-height:400px;
+	overflow: hidden;
 				
 	&:nth-child(even){
 		@include last;
@@ -48,6 +50,8 @@
 	@include span(5 of 16);
 	margin-bottom:3.125em; /*50/16*/
 	margin-right:4.166666666667%; /*50/365*/
+	max-height:270px;
+	overflow: hidden;
 
 	&:nth-child(3n+3){
 		margin-right:0px;

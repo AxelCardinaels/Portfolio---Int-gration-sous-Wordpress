@@ -895,13 +895,15 @@ header {
   float: left;
   margin-right: 1.35135%;
   margin-bottom: 5.625em;
-  /*90/16*/ }
-  /* line 42, sass/_components.projetslist.scss */
+  /*90/16*/
+  max-height: 400px;
+  overflow: hidden; }
+  /* line 44, sass/_components.projetslist.scss */
   .projets--featured:nth-child(even) {
     float: right;
     margin-right: 0; }
 
-/* line 47, sass/_components.projetslist.scss */
+/* line 49, sass/_components.projetslist.scss */
 .projets--listed {
   width: 30.37975%;
   float: left;
@@ -909,19 +911,21 @@ header {
   margin-bottom: 3.125em;
   /*50/16*/
   margin-right: 4.166666666667%;
-  /*50/365*/ }
-  /* line 52, sass/_components.projetslist.scss */
+  /*50/365*/
+  max-height: 270px;
+  overflow: hidden; }
+  /* line 56, sass/_components.projetslist.scss */
   .projets--listed:nth-child(3n+3) {
     margin-right: 0px; }
-  /* line 56, sass/_components.projetslist.scss */
+  /* line 60, sass/_components.projetslist.scss */
   .projets--listed:last-child {
     margin-bottom: 0px; }
 
-/* line 61, sass/_components.projetslist.scss */
+/* line 65, sass/_components.projetslist.scss */
 .projets__small-illustration {
   width: 100%; }
 
-/* line 65, sass/_components.projetslist.scss */
+/* line 69, sass/_components.projetslist.scss */
 .lasttravaux {
   margin-bottom: 5em; }
 
@@ -1697,77 +1701,97 @@ div[id="twitter"] {
   /* line 43, sass/_mediaqueries.scss */
   .header__illu {
     height: 100%;
-    width: auto; } }
+    width: auto; }
+
+  /* line 48, sass/_mediaqueries.scss */
+  .header__title {
+    font-size: 2em;
+    /*50/16*/ } }
 @media all and (max-width: 850px) {
-  /* line 55, sass/_mediaqueries.scss */
+  /* line 57, sass/_mediaqueries.scss */
+  .header__title {
+    font-size: 2em;
+    /*50/16*/ }
+
+  /* line 62, sass/_mediaqueries.scss */
   a.projets--featured, a.projets--listed {
     width: 100%;
     margin-bottom: 3em; }
 
-  /* line 62, sass/_mediaqueries.scss */
+  /* line 69, sass/_mediaqueries.scss */
   .projets:hover div {
     visibility: hidden; }
 
-  /* line 69, sass/_mediaqueries.scss */
+  /* line 76, sass/_mediaqueries.scss */
   .header__text {
     width: 80%;
     margin: 0px auto; } }
 @media all and (max-width: 600px) {
-  /* line 82, sass/_mediaqueries.scss */
+  /* line 88, sass/_mediaqueries.scss */
+  .header__title {
+    font-size: 2em;
+    /*50/16*/ }
+
+  /* line 93, sass/_mediaqueries.scss */
   .bio__portrait, .bio p, .history__list, .bio_title, .form-container, .projet__texte, .projet__outils, .outils__list {
     width: 100%; }
 
-  /* line 89, sass/_mediaqueries.scss */
+  /* line 100, sass/_mediaqueries.scss */
   .map {
     display: none; }
 
-  /* line 94, sass/_mediaqueries.scss */
+  /* line 105, sass/_mediaqueries.scss */
   .bio__portrait, .projet--single div.textes {
     margin-bottom: 2em; }
 
-  /* line 98, sass/_mediaqueries.scss */
+  /* line 109, sass/_mediaqueries.scss */
   .wrapper--large {
     width: 90%; }
 
-  /* line 102, sass/_mediaqueries.scss */
+  /* line 113, sass/_mediaqueries.scss */
   .menu {
     font-size: 0.9em; }
 
-  /* line 106, sass/_mediaqueries.scss */
+  /* line 117, sass/_mediaqueries.scss */
   .single-article, .bio__title, .projets div h4 {
     font-size: 0.9em; }
 
-  /* line 110, sass/_mediaqueries.scss */
+  /* line 121, sass/_mediaqueries.scss */
   .bouton {
     width: 60%; }
 
-  /* line 114, sass/_mediaqueries.scss */
+  /* line 125, sass/_mediaqueries.scss */
   .post {
     padding-left: 15%; }
 
-  /* line 118, sass/_mediaqueries.scss */
+  /* line 129, sass/_mediaqueries.scss */
   .wrapper-large section h3 {
     font-size: 1em;
     top: -10px; }
 
-  /* line 123, sass/_mediaqueries.scss */
+  /* line 134, sass/_mediaqueries.scss */
   .intro {
     font-size: 1.2em; }
 
-  /* line 128, sass/_mediaqueries.scss */
+  /* line 139, sass/_mediaqueries.scss */
   .footer__logos .footer__link {
     margin: 0px auto 2em;
     display: block; }
-    /* line 132, sass/_mediaqueries.scss */
+    /* line 143, sass/_mediaqueries.scss */
     .footer__logos .footer__link:last-child {
       margin: 0px auto 2em; }
 
-  /* line 141, sass/_mediaqueries.scss */
+  /* line 152, sass/_mediaqueries.scss */
   .header__title {
     font-size: 2.1em;
     /*50/16*/ }
 
-  /* line 145, sass/_mediaqueries.scss */
+  /* line 156, sass/_mediaqueries.scss */
   .header__subtitle {
     font-size: 1.9em;
     /*40/16*/ } }
+@media all and (max-width: 400px) {
+  /* line 166, sass/_mediaqueries.scss */
+  .header__title {
+    font-size: 1.5em;
+    /*50/16*/ } }
