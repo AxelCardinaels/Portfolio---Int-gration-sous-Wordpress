@@ -125,13 +125,13 @@
               <p itemprop="name" class="fn visuallyhidden">Axel Cardinaels</p>
               <form method="post">
                 <label class="visuallyhidden" for="nom">Votre nom</label>
-                <input type="text" name="nom" placeholder="Votre nom"/>
+                <input type="text" id="nom" name="nom" placeholder="Votre nom"/>
 
                 <label class="visuallyhidden" for="email">Votre email</label>
-                <input type="text" name="email" placeholder="Votre email"/>
+                <input type="text" id="email" name="email" placeholder="Votre email"/>
 
                 <label class="visuallyhidden" for="message">Votre nom</label>
-                <textarea name="message" placeholder="Votre message"></textarea>
+                <textarea name="message" id="message" placeholder="Votre message"></textarea>
               
                 <input type="submit" value="Envoyer le message" class="bouton"/>
               </form>

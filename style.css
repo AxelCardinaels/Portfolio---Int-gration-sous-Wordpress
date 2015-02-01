@@ -665,8 +665,8 @@ h3.visuallyhidden {
 .bouton {
   clear: both;
   width: 20%;
-  color: #C8C8C8;
-  border: 1.5px #DCDCDC solid;
+  color: #929292;
+  border: 1.5px #9B9B9B solid;
   float: right;
   margin-right: 0;
   text-decoration: none;
@@ -1245,8 +1245,8 @@ header {
   /* line 9, sass/_components.contactform.scss */
   .form-container input, .form-container textarea {
     width: 100%;
-    border: 1px #DCDCDC solid;
-    color: grey;
+    border: 1px #9B9B9B solid;
+    color: #929292;
     font-size: 1em; }
   /* line 17, sass/_components.contactform.scss */
   .form-container textarea:focus {
@@ -1263,7 +1263,7 @@ header {
     /*15/14.4 et 10/529*/ }
     /* line 33, sass/_components.contactform.scss */
     .form-container input[type="text"]:focus {
-      border-bottom: 2px #b6b6b6 dashed; }
+      border-bottom: 2px #757575 dashed; }
   /* line 39, sass/_components.contactform.scss */
   .form-container textarea {
     height: 12.36111111111111em;

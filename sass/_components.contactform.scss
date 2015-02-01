@@ -8,8 +8,8 @@
 
 	input, textarea{
 		width:100%;
-		border:1px #DCDCDC solid;
-		color:grey;
+		border:1px #9B9B9B solid;
+		color:#929292;
 		font-size: 1em;
 		
 	}
@@ -31,7 +31,7 @@
 		padding:0.9em 1.890359168242%; /*15/14.4 et 10/529*/
 
 		&:focus{
-			border-bottom:2px darken(#DCDCDC,15%) dashed;
+			border-bottom:2px darken(#9B9B9B,15%) dashed;
 		}
 
 	}

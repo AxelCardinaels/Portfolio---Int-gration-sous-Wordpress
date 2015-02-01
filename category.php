@@ -49,7 +49,7 @@
 
             
               <div class="tri">
-                <a href="http://localhost/wordpress/blog/" title="Trier les articles par date">Chronologiquement</a>
+                <a href="http://www.axelcardinaels.be/blog" title="Trier les articles par date">Chronologiquement</a>
                 <div class="categories__container">
                   <ul class="categories__list">
                     <?php $args = array(

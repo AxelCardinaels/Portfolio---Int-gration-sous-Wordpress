@@ -51,7 +51,7 @@
 
             
             <div class="tri">
-              <a href="http://localhost/wordpress/blog/" title="Trier les articles par date" class="triselect">Chronologiquement</a>
+              <a href="http://www.axelcardinaels.be/blog" title="Trier les articles par date" class="triselect">Chronologiquement</a>
 
 
             </div>
