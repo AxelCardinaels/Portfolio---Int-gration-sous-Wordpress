@@ -17,7 +17,7 @@
       </div>
       </div>
       <nav class="menu menu--principal">
-          <h3 class="visuallyhidden ">Menu</h3>
+          <h2 class="visuallyhidden ">Menu</h2>
            <?php
 
 

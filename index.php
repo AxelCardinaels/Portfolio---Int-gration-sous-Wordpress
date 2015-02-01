@@ -17,7 +17,7 @@
         </h1>
       </div>
       <nav class="menu menu--home">
-          <h3 class="visuallyhidden ">Menu</h3>
+          <h2 class="visuallyhidden ">Menu</h2>
           <?php         
           $args = array(
             'theme_location'  => 'top',
